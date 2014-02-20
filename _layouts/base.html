@@ -22,10 +22,10 @@
     {% endif %}
     <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
     {% endif %}
-    {% if page.excerpt %}
+    <!--{% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
     <meta name="description" content="{{ page.excerpt }}"/>
-    {% endif %}
+    {% endif %} -->
     <meta property="og:site_name" content="{{ site.inc.title }}">     
 </head>
 <body>
@@ -36,7 +36,6 @@
             <a class="brand" href="/">
                 <img src="/images/{{ site.inc.logo }}" alt="Inc">
             </a>
-            <a href="/" class="home">Blog</a>
             {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %}
             {% if site.inc.quotes_link %}<a href="{{ site.inc.quotes_link }}">Quotes</a>{% endif %}
         </nav>
