@@ -21,22 +21,24 @@ layout: base
     </section>
 </div>
 
-
-<article class="container">
-{% for post in paginator.posts %}
-  {% unless post.draft %}
-    <section class="index">
+<article>
+  <div class="container">
+  {% for post in paginator.posts %}
+    {% unless post.draft %}
+      <section class="index">
         {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}
         <div>
           <div class="meta">
             <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
           </div>
           <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+          <p></p>
         </div>
-        <hr>
-    </section>
+      </section>
     {% endunless %}
     {% endfor %}
+    <p></p>
+    <p></p>
     <section class="pagination" style="text-align:center">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
@@ -49,4 +51,5 @@ layout: base
         <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
       {% endif %}
     </section>
+  </div>
 </article>
