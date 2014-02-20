@@ -10,7 +10,7 @@ TL;DR - Yes. It's good for now, but not perfect. Review below.
 
 **Overview**
 
-![nest](/img/nest.jpg)
+![nest](/images/nest.jpg)
 
 The [Nest Thermostat](https://nest.com/thermostat/life-with-nest-thermostat/) is a 'smart' thermostat that learns from your habits to reduce wateful spending. Touting features like auto away (turning heat down automatically when you're out), self learning (setting optimal temperatures itself) and more, it's a pretty compelling buy. And not to mention that it looks awesome. 
 
@@ -19,17 +19,17 @@ The [Nest Thermostat](https://nest.com/thermostat/life-with-nest-thermostat/) is
 
 Before you can use the Nest, you have to make sure it's compatible with your house. To find out, you remove the cover of your current thermostat, go to the [Nest compatibility site](https://widgets.nest.com/compatibility/) and check a few wires. 
 
-![old-thermostat](/img/nest2.jpg)
+![old-thermostat](/images/nest2.jpg)
 
 In my case, I had a W, Rh, Y, G, and another tying Rh to Rc. I emailed them in case ([photos@nest.com](mailto:photos@nest.com)) and they were pretty quick (within 6 hours) to respond and confirm. 
 
 On the site, I was returned with this: 
 
-![diagram](/img/nest3.png)
+![diagram](/images/nest3.png)
 
 Was unsure of what to do with the Rh to Rc wire, so I left it off. Discovered later that [it wasn't necessary](http://support.nest.com/article/How-do-I-install-Nest-if-my-old-thermostat-had-a-short-wire-connecting-Rh-and-Rc) (aside -- found a fair amount of people with the same question, so would have been helpful to include in setup instructions. 
 
-![install](http://bit.ly/KgH7Wn)
+![install](/images/nest4.png)
 
 Installation was pretty straightforward -- turn off the electricity via circuit box, remove old thermostat, screw in Nest plate, plug in wires, and then put the Nest on top of it. 15-20 min.
 
@@ -57,12 +57,23 @@ This is the one area that scared me a bit. After initially setting up the Nest, 
 
 Totally unaware there was even a battery (thought it powered through the wall), I went online to figure out what was going on.
 
-![img](/img/nest5.png)
+![images](/images/nest5.png)
 
 Found this on the support page and it [lead to this article](http://support.nest.com/article/Intermittent-low-battery-or-connectivity-issues-with-thermostat-software-4-0). With no steps to fix, had to search a bit more and found [this article](http://support.nest.com/article/What-s-the-mini-USB-port-on-the-back-of-the-display-for) -- had to recharge Nest through an outlet so we could use & reconnect in the interim (next up was [this](http://shaunmerrigan.info/site-news/nest-thermostat-battery-charge-problem-and-solution/) if it didn't work). Let it charge for ~1hr and set it back on the wall. Haven't had a problem since, but the lack of clear steps for a resolution left me a bit uneasy.
 
 While perusing the support pages during this time, I found a few frustrated people with Nest's seemingly lack of care for support issues. With only a support email alias and no direct number, I can see why. While email only support is fairly common for startups, not sure if this is a good approach for home consumer products.
 
+Seems like I'm not the only one with some issues:
+
+<blockquote class="twitter-tweet" lang="en"><p>huh. Got a <a href="https://twitter.com/nest">@nest</a>. PG&amp;E bill is 3x higher than last month. Clearly it needs some learning ...</p>&mdash; Micah Baldwin (@micah) <a href="https://twitter.com/micah/statuses/420271372980326401">January 6, 2014</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Urg. <a href="https://twitter.com/nest">@nest</a> is playing up, needs a software update, and the web site doesn’t explain how to force an update to ver 4.01. Anyone know?</p>&mdash; John Borthwick (@Borthwick) <a href="https://twitter.com/Borthwick/statuses/420756098761494528">January 8, 2014</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>"Still, Nest will need to better educate customers and ramp up support to avoid being blamed for problems it didn’t cause. Otherwise, customer issues like these could shake confidence in Nest"</p><a href="http://techcrunch.com/2014/01/06/nest-4-0-firmware-battery-problems/">&mdash; Techcrunch</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>"But if it's causing problems for even adept users like myself, this could be a big problem in the long run for the company."</p><a href="http://www.businessinsider.com/nest-thermostat-problem-2014-1">&mdash; Business Insider</a></blockquote>
+
+[Another link to some pretty poor Amazon reviews (obviously, take these with a grain of salt).](http://www.amazon.com/Nest-Learning-Thermostat-Generation-T200577/product-reviews/B009GDHYPQ/ref=cm_cr_pr_hist_1?ie=UTF8&filterBy=addOneStar&showViewpoints=0&sortBy=bySubmissionDateDescending)
 
 **Conclusion**
 
