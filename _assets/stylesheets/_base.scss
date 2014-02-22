@@ -189,7 +189,9 @@ a {
         margin:0 0.5em;
         
         &:hover {
-            color:#222;
+            color:lighten($accent, 50%);
+            text-decoration:none;
+            background-color:$accent;
         }
     }
     
@@ -202,7 +204,11 @@ a {
     }
     
     nav {
-       display:inline-block;
+        padding-top: 22px;
+        width: 100%;
+        max-width: 525px;
+        margin: auto;
+        position: relative;
     }
     
     .social {
@@ -225,6 +231,8 @@ a {
 
             &:hover {
                 opacity:0.9;
+                transition:0.2s all ease;
+                background:#fff;
             }
         }
     }

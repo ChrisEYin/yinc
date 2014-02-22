@@ -51,9 +51,8 @@
 
 <footer class="site-footer">
     <div class="container">
-        &copy; {{ site.time | date: "%Y" }}
-        
         <nav>
+            &copy; {{ site.time | date: "%Y" }}
             <a href="{{ site.inc.url }}">Chris Yin</a> &middot;
             {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %} &middot;
             {% if site.inc.quotes_link %}<a href="{{ site.inc.quotes_link }}">Quotes</a>{% endif %}
