@@ -6,8 +6,8 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sat, 22 Feb 2014 08:13:14 +0000</pubDate>
-    <lastBuildDate>Sat, 22 Feb 2014 08:13:14 +0000</lastBuildDate>
+    <pubDate>Sat, 22 Feb 2014 08:28:45 +0000</pubDate>
+    <lastBuildDate>Sat, 22 Feb 2014 08:28:45 +0000</lastBuildDate>
 
     
     
@@ -163,27 +163,87 @@
 
 &lt;p&gt;&lt;strong&gt;Work&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Gmail&lt;br /&gt; Asana&lt;br /&gt; Tempo/Google Calendar&lt;br /&gt; Google Drive&lt;br /&gt; Dropbox&lt;br /&gt; Hipchat&lt;br /&gt; GoToMeeting&lt;br /&gt; Jira&lt;br /&gt; Zendesk&lt;br /&gt; Github&lt;br /&gt; Google Analytics&lt;br /&gt; Balsamiq&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Gmail&lt;/li&gt;
+
+&lt;li&gt;Asana&lt;/li&gt;
+
+&lt;li&gt;Tempo/Google Calendar&lt;/li&gt;
+
+&lt;li&gt;Google Drive&lt;/li&gt;
+
+&lt;li&gt;Dropbox&lt;/li&gt;
+
+&lt;li&gt;Hipchat&lt;/li&gt;
+
+&lt;li&gt;GoToMeeting&lt;/li&gt;
+
+&lt;li&gt;Jira&lt;/li&gt;
+
+&lt;li&gt;Zendesk&lt;/li&gt;
+
+&lt;li&gt;Github&lt;/li&gt;
+
+&lt;li&gt;Google Analytics&lt;/li&gt;
+
+&lt;li&gt;Balsamiq&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Personal&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Sleep Time/Clock&lt;br /&gt; Google Maps&lt;br /&gt; Pocket&lt;br /&gt; Evernote&lt;br /&gt; Speedtest&lt;br /&gt; Draft&lt;br /&gt; Lift&lt;br /&gt; Penzu&lt;br /&gt; Line&lt;br /&gt; Yelp&lt;br /&gt; IFTTT&lt;br /&gt; Flixter (Rottentomates)&lt;br /&gt; Yahoo Sports (Fantasy Basketball)&lt;br /&gt; Square Cash&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Sleep Time/Clock&lt;/li&gt;
+
+&lt;li&gt;Google Maps&lt;/li&gt;
+
+&lt;li&gt;Pocket&lt;/li&gt;
+
+&lt;li&gt;Evernote&lt;/li&gt;
+
+&lt;li&gt;Speedtest&lt;/li&gt;
+
+&lt;li&gt;Draft&lt;/li&gt;
+
+&lt;li&gt;Lift&lt;/li&gt;
+
+&lt;li&gt;Penzu&lt;/li&gt;
+
+&lt;li&gt;Line&lt;/li&gt;
+
+&lt;li&gt;Yelp&lt;/li&gt;
+
+&lt;li&gt;IFTTT&lt;/li&gt;
+
+&lt;li&gt;Flixter (Rottentomates)&lt;/li&gt;
+
+&lt;li&gt;Yahoo Sports (Fantasy Basketball)&lt;/li&gt;
+
+&lt;li&gt;Square Cash&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Social&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Twitter&lt;br /&gt; Linkedin&lt;br /&gt; Instagram&lt;br /&gt; Buffer&lt;br /&gt; Tumblr&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+
+&lt;li&gt;LinkedIn&lt;/li&gt;
+
+&lt;li&gt;Instagram&lt;/li&gt;
+
+&lt;li&gt;Buffer&lt;/li&gt;
+
+&lt;li&gt;Tumblr&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Pandora&lt;br /&gt; Shazam&lt;br /&gt; Netflix&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Pandora&lt;/li&gt;
+
+&lt;li&gt;Shazam&lt;/li&gt;
+
+&lt;li&gt;Netflix&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;May need to update &lt;a href=&quot;http://chrisyin.com/tools&quot;&gt;Tools&lt;/a&gt;. Happy New Year!&lt;/p&gt;</description>
     </item>
