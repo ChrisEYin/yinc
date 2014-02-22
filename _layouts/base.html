@@ -6,7 +6,7 @@
     <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
     {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
     {% stylesheet main %}
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/CircleYin.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
     <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
@@ -33,9 +33,10 @@
 <section class="site-nav">
     <header>
         <nav id="navigation">
-            <a class="brand" href="/">
+            <!--<a class="brand" href="/">
                 <img src="/images/{{ site.inc.logo }}" alt="Inc">
-            </a>
+            </a>-->
+            <a href="/">Home</a>
             {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %}
             {% if site.inc.quotes_link %}<a href="{{ site.inc.quotes_link }}">Quotes</a>{% endif %}
         </nav>
@@ -50,13 +51,12 @@
 
 <footer class="site-footer">
     <div class="container">
-        &copy; {{ site.time | date: "%Y" }} 
+        &copy; {{ site.time | date: "%Y" }}
         
         <nav>
-            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
-            <a href="/">Blog</a> &middot;
-            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">Product</a> &middot; {% endif %}
-            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %}
+            <a href="{{ site.inc.url }}">Chris Yin</a> &middot;
+            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %} &middot;
+            {% if site.inc.quotes_link %}<a href="{{ site.inc.quotes_link }}">Quotes</a>{% endif %}
         </nav>
         
         <nav class="social">
@@ -70,7 +70,6 @@
                 <i class="icon icon-rss black"></i>
             </a>
         </nav>
-        <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p>
     </div>
 </footer>
 

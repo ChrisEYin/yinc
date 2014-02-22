@@ -11,17 +11,17 @@ inc:
   facebook:     false
   twitter:      chriseyin
   gplus:        '101183822199340201470'
-  about_link:   http://chrisyin.com/tools/
+  about_link:   /about
   
   # Product Information
-  quotes_link: http://www.chrisyin.com/quotes
-  tagline:      
+  quotes_link: /quotes
   
   # Comments
   disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
-  
+    shortname:  chrisyin
+
+
+
   # Sharing settings
   sharing:
     twitter:    false
@@ -34,7 +34,7 @@ inc:
   analytics:
     google: 
       # eg. 'UA-123-12'
-      id:       false
+      id:       UA-35234352-1
       
       
   # Google Fonts
@@ -43,7 +43,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://www.chrisyin.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
