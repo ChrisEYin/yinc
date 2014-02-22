@@ -25,13 +25,6 @@
     .dropdown {
         display:inline-block;
     }
-
-    
-                .current {
-        color:$accent;
-        border-bottom: 1px solid;
-    }
-
     
     nav {
         padding-top:22px;
@@ -56,7 +49,12 @@
                 border-bottom: 1px solid;
             }
         }
-        
+
+        a, .current {
+        color:$accent;
+        border-bottom: 1px solid;
+    }
+   
         > a, .dropdown-toggle  {
             color:#444;
             border:0;
