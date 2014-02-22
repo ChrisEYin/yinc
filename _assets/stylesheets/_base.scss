@@ -267,12 +267,6 @@ a {
     border:2px solid #4dab7d;
     text-transform: uppercase;
     white-space:nowrap;
-
-    &:hover {
-        background:darken(#4dab7d, 10%);
-        border-color:darken(#4dab7d, 10%);
-        color:#fff;
-    }
     
     &:active {
         box-shadow:none;
@@ -286,11 +280,11 @@ a {
     border:2px solid $accent;
     border-radius: 3px;
     color:darken($accent, 5%);
-    transition:none;
+    transition:0.2s all ease;
 
     &:hover {
         border:2px solid darken($accent, 5%);
-        color:darken($accent, 10%);
-        background:none;
+        color:#fff;
+        background:$accent;
     }
 }
