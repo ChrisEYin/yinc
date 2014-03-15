@@ -14,4 +14,7 @@ images/
 All other directories and files are MIT Licensed.
 
 
-based on theme by [Kippt](blog.sendtoinc.com).
+
+--
+
+Based on theme by [Kippt](blog.sendtoinc.com).
