@@ -4,13 +4,14 @@
 
 This is my personal blog. 
 
-You may not reuse anything in the following directories without my direcdt permission:
+You can not reuse anything in these directories without my direct permission:
 
-`_posts/
+```
+_posts/   
 images/
-`
+```
 
-All other directories and files are MIT Licensed (where applicable)git add ..
+All other directories and files are MIT Licensed.
 
 
-based on theme by - [Kippt](blog.sendtoinc.com)
+based on theme by [Kippt](blog.sendtoinc.com).
