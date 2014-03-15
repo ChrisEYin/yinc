@@ -3,13 +3,25 @@ layout: post
 title: Quotes 
 ---
 
->"Happiness is when what you think, what you say, and what you do are in harmony."
+>"Actions express priorities."
 
--Mahatma Gandhi  
+-Mahatma Gandhi
+
+>"Success consists of going from failure to failure without loss of enthuasiasm."
+
+-Winston Churchill
+
+>"Success breeds complacency. Complacency breeds failure. Only the paranoid survive."
+
+-Andy Grove
 
 >"Good judgement comes from experience. And experience comes from bad judgement."
 
 -Rita Mae Brown  
+
+>"Happiness is when what you think, what you say, and what you do are in harmony."
+
+-Mahatma Gandhi  
 
 >"I'm often wrong, but never in doubt."  
 
@@ -18,7 +30,6 @@ title: Quotes
 >"Pain + Reflection = Progress."
 
 -Ray Dalio  
-
 
 >"I believe in strength over lack of weakness."
 
