@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting a Static Site on S3 &mdash; Chris Yin</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/images/CircleYin.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/CircleYin.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Chris Yin" />
+    <meta name="title" content="Hosting a Static Site on S3 ">
+    <link rel="canonical" href="http://www.chrisyin.com/2014/03/30/hosting-a-static-site-on-s3/">
+     
+           
+    <meta property="og:title" content="Hosting a Static Site on S3 "/>
+    <meta property="og:url" content="http://www.chrisyin.com/2014/03/30/hosting-a-static-site-on-s3/"/>
+    
+    <!--
+    <meta property="og:description" content="<p>I’ve had this setup with <a href="http://www.chrisyin.com">my personal site</a> for some time now, but I recently had to setup another static site and I had to look through my old setup and Google around a bit and try to figure out how to do it again. Figured I would write it down this time.</p>
+
+<ol>
+<li>Buy A Domain</li>
+
+<li>Create a Bucket on S3</li>
+
+<li>Upload Content</li>
+
+<li>Configure Bucket</li>
+
+<li>Point Domain to Bucket</li>
+</ol>
+<hr />
+<p><strong>Buy A Domain</strong></p>
+
+<p>There’s a ton of places to do this (people seem to use <a href="https://www.namecheap.com">Namecheap</a> a lot), but I stick with Godaddy because all my domains are already here, and they keep giving me <a href="http://www.godaddy.com/deals2/">$0.99 domains</a>. Anything works.</p>
+
+<p><strong>Create a Bucket on S3</strong></p>
+
+<p>If you don’t have an S3 account, go to <a href="http://aws.amazon.com">AWS</a> and sign up. It’s free for 5 GB storage, 20K Get Requests, 2K Put Requests, and 15GB of data transfer out each month for one year. For most, it will be free but if you think you’ll do more than that, their pricing is <a href="http://aws.amazon.com/s3/pricing/">here</a>.</p>
+
+<p>Once you’re in the S3 console, click ‘Create Bucket’ in the top left hand corner. All your files will be stored here. Name your bucket ‘www..com’. For Region, just leave the default ‘US Standard’ and then click ‘Create’.</p>
+
+<p><img src="/images/staticsite/createbucket.png" alt="createbucket" /></p>
+
+<p><strong>Upload Content</strong></p>
+
+<p>Once you have your bucket, time to upload. You can do either via UI or command line.</p>
+
+<p>To upload via UI, click Upload in the top left hand corner and select or drag folders in. Once your files have been uploaded, right click the files and select ‘Make Public’.</p>
+
+<p><img src="/images/staticsite/makepublic.png" alt="makepublic" /></p>
+
+<p>The easier and faster way is to use <a href="http://s3tools.org/s3cmd">s3cmd</a>, a command line tool for S3. Once you setup and configure s3cmd with your access keys, find your bucket and upload with below.</p>
+
+<pre><code>
+$ s3cmd ls # find your bucket in the list
+$ s3cmd sync --acl-public folder_name/ s3://www.domain.com
+
+# example for folder '_site' and bucket www.chrisyin.com
+$ s3cmd sync --acl-public _site/ s3://www.chrisyin.com
+</code></pre>
+
+<p><strong>Configure Bucket</strong></p>
+
+<p>Return to the main S3 console and highlight your bucket (but don’t go into it). Select ‘Properties’ in the top right hand corner. The 2 sections we need to configure are ‘Permissions’ and ‘Static Website Hosting’.</p>
+
+<p><img src="/images/staticsite/bucketproperties.png" alt="bucketproperties" /></p>
+
+<p>In Permissions, click ‘Add More Permissions’, select ‘Everyone’ and check ‘View Permissions’. Click Save in the bottom right.</p>
+
+<p><img src="/images/staticsite/everyonepermissions.png" alt="everyonepermissions" /></p>
+
+<p>Then open up ‘Static Website Hosting’. In here, select ‘Enable website hosting’, define your index/404 files, and then click Save. There’s also URL next to ‘Endpoint:” - that is the URL for your static site. If you click on it, it should show your the site. If that’s working, now we’ll point your domain to that URL.</p>
+
+<p><img src="/images/staticsite/index404.png" alt="index404" /></p>
+
+<p><strong>Point Domain to Bucket</strong></p>
+
+<p>Go into your domain registrar. Everyone’s steps now are going to be different depending oin your registrar. If you use Godaddy, click on ‘My Account’ –&gt; ‘My Domains’, select your domain and then ‘Launch’.</p>
+
+<p>Under the domain info and next to ‘Settings’, select ‘DNS Zone File’ and then click ‘Edit’ – change CNAME record with Host:www and point it to your Endpoint URL.</p>
+
+<p><img src="/images/staticsite/cname.png" alt="cname" /></p>
+
+<p>Then click back into the main setting and then for forwarding, set your forwarding to <em>wwww.domain.com</em>. Done!</p>
+<hr />
+<p>Now both <em>domain.com</em> &amp; <em>wwww.domain.com</em> should work for your site.</p>"/>
+    <meta name="description" content="<p>I’ve had this setup with <a href="http://www.chrisyin.com">my personal site</a> for some time now, but I recently had to setup another static site and I had to look through my old setup and Google around a bit and try to figure out how to do it again. Figured I would write it down this time.</p>
+
+<ol>
+<li>Buy A Domain</li>
+
+<li>Create a Bucket on S3</li>
+
+<li>Upload Content</li>
+
+<li>Configure Bucket</li>
+
+<li>Point Domain to Bucket</li>
+</ol>
+<hr />
+<p><strong>Buy A Domain</strong></p>
+
+<p>There’s a ton of places to do this (people seem to use <a href="https://www.namecheap.com">Namecheap</a> a lot), but I stick with Godaddy because all my domains are already here, and they keep giving me <a href="http://www.godaddy.com/deals2/">$0.99 domains</a>. Anything works.</p>
+
+<p><strong>Create a Bucket on S3</strong></p>
+
+<p>If you don’t have an S3 account, go to <a href="http://aws.amazon.com">AWS</a> and sign up. It’s free for 5 GB storage, 20K Get Requests, 2K Put Requests, and 15GB of data transfer out each month for one year. For most, it will be free but if you think you’ll do more than that, their pricing is <a href="http://aws.amazon.com/s3/pricing/">here</a>.</p>
+
+<p>Once you’re in the S3 console, click ‘Create Bucket’ in the top left hand corner. All your files will be stored here. Name your bucket ‘www..com’. For Region, just leave the default ‘US Standard’ and then click ‘Create’.</p>
+
+<p><img src="/images/staticsite/createbucket.png" alt="createbucket" /></p>
+
+<p><strong>Upload Content</strong></p>
+
+<p>Once you have your bucket, time to upload. You can do either via UI or command line.</p>
+
+<p>To upload via UI, click Upload in the top left hand corner and select or drag folders in. Once your files have been uploaded, right click the files and select ‘Make Public’.</p>
+
+<p><img src="/images/staticsite/makepublic.png" alt="makepublic" /></p>
+
+<p>The easier and faster way is to use <a href="http://s3tools.org/s3cmd">s3cmd</a>, a command line tool for S3. Once you setup and configure s3cmd with your access keys, find your bucket and upload with below.</p>
+
+<pre><code>
+$ s3cmd ls # find your bucket in the list
+$ s3cmd sync --acl-public folder_name/ s3://www.domain.com
+
+# example for folder '_site' and bucket www.chrisyin.com
+$ s3cmd sync --acl-public _site/ s3://www.chrisyin.com
+</code></pre>
+
+<p><strong>Configure Bucket</strong></p>
+
+<p>Return to the main S3 console and highlight your bucket (but don’t go into it). Select ‘Properties’ in the top right hand corner. The 2 sections we need to configure are ‘Permissions’ and ‘Static Website Hosting’.</p>
+
+<p><img src="/images/staticsite/bucketproperties.png" alt="bucketproperties" /></p>
+
+<p>In Permissions, click ‘Add More Permissions’, select ‘Everyone’ and check ‘View Permissions’. Click Save in the bottom right.</p>
+
+<p><img src="/images/staticsite/everyonepermissions.png" alt="everyonepermissions" /></p>
+
+<p>Then open up ‘Static Website Hosting’. In here, select ‘Enable website hosting’, define your index/404 files, and then click Save. There’s also URL next to ‘Endpoint:” - that is the URL for your static site. If you click on it, it should show your the site. If that’s working, now we’ll point your domain to that URL.</p>
+
+<p><img src="/images/staticsite/index404.png" alt="index404" /></p>
+
+<p><strong>Point Domain to Bucket</strong></p>
+
+<p>Go into your domain registrar. Everyone’s steps now are going to be different depending oin your registrar. If you use Godaddy, click on ‘My Account’ –&gt; ‘My Domains’, select your domain and then ‘Launch’.</p>
+
+<p>Under the domain info and next to ‘Settings’, select ‘DNS Zone File’ and then click ‘Edit’ – change CNAME record with Host:www and point it to your Endpoint URL.</p>
+
+<p><img src="/images/staticsite/cname.png" alt="cname" /></p>
+
+<p>Then click back into the main setting and then for forwarding, set your forwarding to <em>wwww.domain.com</em>. Done!</p>
+<hr />
+<p>Now both <em>domain.com</em> &amp; <em>wwww.domain.com</em> should work for your site.</p>"/>
+     -->
+    <meta property="og:site_name" content="Chris Yin">
+    <!--Sumome Plugin -->
+    <script src="//load.sumome.com/" data-sumo-site-id="9ab9472d0d4be1e3018f7e4143e4d815f5d3b7d5bce0b041f56a425c97d35b29" async></script> 
+</head>
+<body>
+     
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <!--<a class="brand" href="/">
+                <img src="/images/CircleYin.png" alt="Inc">
+            </a>-->
+            <a href="/" class="">Home</a>
+            <a href="/about" class="">About</a>
+            <a href="/quotes" class="">Quotes</a>
+        </nav>
+        
+    </header>
+</section>
+
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                <time pubdate datetime="2014-30-March" title="March 30, 2014">March 30, 2014</time>
+            </div>
+            <h1 class="title">Hosting a Static Site on S3</h1>
+            <!---->
+        </header>
+
+        <section>
+          <p>I’ve had this setup with <a href="http://www.chrisyin.com">my personal site</a> for some time now, but I recently had to setup another static site and I had to look through my old setup and Google around a bit and try to figure out how to do it again. Figured I would write it down this time.</p>
+
+<ol>
+<li>Buy A Domain</li>
+
+<li>Create a Bucket on S3</li>
+
+<li>Upload Content</li>
+
+<li>Configure Bucket</li>
+
+<li>Point Domain to Bucket</li>
+</ol>
+<hr />
+<p><strong>Buy A Domain</strong></p>
+
+<p>There’s a ton of places to do this (people seem to use <a href="https://www.namecheap.com">Namecheap</a> a lot), but I stick with Godaddy because all my domains are already here, and they keep giving me <a href="http://www.godaddy.com/deals2/">$0.99 domains</a>. Anything works.</p>
+
+<p><strong>Create a Bucket on S3</strong></p>
+
+<p>If you don’t have an S3 account, go to <a href="http://aws.amazon.com">AWS</a> and sign up. It’s free for 5 GB storage, 20K Get Requests, 2K Put Requests, and 15GB of data transfer out each month for one year. For most, it will be free but if you think you’ll do more than that, their pricing is <a href="http://aws.amazon.com/s3/pricing/">here</a>.</p>
+
+<p>Once you’re in the S3 console, click ‘Create Bucket’ in the top left hand corner. All your files will be stored here. Name your bucket ‘www..com’. For Region, just leave the default ‘US Standard’ and then click ‘Create’.</p>
+
+<p><img src="/images/staticsite/createbucket.png" alt="createbucket" /></p>
+
+<p><strong>Upload Content</strong></p>
+
+<p>Once you have your bucket, time to upload. You can do either via UI or command line.</p>
+
+<p>To upload via UI, click Upload in the top left hand corner and select or drag folders in. Once your files have been uploaded, right click the files and select ‘Make Public’.</p>
+
+<p><img src="/images/staticsite/makepublic.png" alt="makepublic" /></p>
+
+<p>The easier and faster way is to use <a href="http://s3tools.org/s3cmd">s3cmd</a>, a command line tool for S3. Once you setup and configure s3cmd with your access keys, find your bucket and upload with below.</p>
+
+<pre><code>
+$ s3cmd ls # find your bucket in the list
+$ s3cmd sync --acl-public folder_name/ s3://www.domain.com
+
+# example for folder '_site' and bucket www.chrisyin.com
+$ s3cmd sync --acl-public _site/ s3://www.chrisyin.com
+</code></pre>
+
+<p><strong>Configure Bucket</strong></p>
+
+<p>Return to the main S3 console and highlight your bucket (but don’t go into it). Select ‘Properties’ in the top right hand corner. The 2 sections we need to configure are ‘Permissions’ and ‘Static Website Hosting’.</p>
+
+<p><img src="/images/staticsite/bucketproperties.png" alt="bucketproperties" /></p>
+
+<p>In Permissions, click ‘Add More Permissions’, select ‘Everyone’ and check ‘View Permissions’. Click Save in the bottom right.</p>
+
+<p><img src="/images/staticsite/everyonepermissions.png" alt="everyonepermissions" /></p>
+
+<p>Then open up ‘Static Website Hosting’. In here, select ‘Enable website hosting’, define your index/404 files, and then click Save. There’s also URL next to ‘Endpoint:” - that is the URL for your static site. If you click on it, it should show your the site. If that’s working, now we’ll point your domain to that URL.</p>
+
+<p><img src="/images/staticsite/index404.png" alt="index404" /></p>
+
+<p><strong>Point Domain to Bucket</strong></p>
+
+<p>Go into your domain registrar. Everyone’s steps now are going to be different depending oin your registrar. If you use Godaddy, click on ‘My Account’ –&gt; ‘My Domains’, select your domain and then ‘Launch’.</p>
+
+<p>Under the domain info and next to ‘Settings’, select ‘DNS Zone File’ and then click ‘Edit’ – change CNAME record with Host:www and point it to your Endpoint URL.</p>
+
+<p><img src="/images/staticsite/cname.png" alt="cname" /></p>
+
+<p>Then click back into the main setting and then for forwarding, set your forwarding to <em>wwww.domain.com</em>. Done!</p>
+<hr />
+<p>Now both <em>domain.com</em> &amp; <em>wwww.domain.com</em> should work for your site.</p>
+          
+        </section>
+        
+          <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'chrisyin'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+          </section>
+        
+    </div>
+</article>
+
+<footer class="site-footer">
+    <div class="container">
+        <nav>
+            &copy; 2014
+            <a href="http://chrisyin.com/">Chris Yin</a> &middot;
+            <a href="/about">About</a> &middot;
+            <a href="/quotes">Quotes</a>
+        </nav>
+        <!--
+        <nav class="social">
+            
+            <a href="https://twitter.com/chriseyin" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>-->
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35234352-1', 'http://www.chrisyin.com');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

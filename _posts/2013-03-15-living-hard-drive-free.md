@@ -1,6 +1,5 @@
 ---
 title: Living Hard Drive Free
-subtitle: Switching machines has never been so easy! And free!
 layout: post
 ---
 

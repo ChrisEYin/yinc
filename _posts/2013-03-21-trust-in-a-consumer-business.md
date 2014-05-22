@@ -1,6 +1,5 @@
 ---
 title: Trust in a Consumer Business
-subtitle: A rant on consumer businesses, stemming from Google Reader getting axed.
 layout: post
 ---
 

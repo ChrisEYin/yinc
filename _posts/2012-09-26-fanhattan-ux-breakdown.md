@@ -1,6 +1,5 @@
 ---
 title: Fanhattan UX Breakdown
-subtitle: I love you Fanhattan, but you could use some help. This is my attempt.
 layout: post
 ---
 

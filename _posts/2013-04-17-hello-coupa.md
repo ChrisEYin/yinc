@@ -1,6 +1,5 @@
 ---
 title: Hello Coupa!
-subtitle: Xpenser has been acquired!
 layout: post
 ---
 

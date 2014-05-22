@@ -11,7 +11,7 @@ I still had to work, so I decided I'd work PT, but in Taiwan. Taiwan is 16 hours
 
 Overall, Taiwan was awesome. The food there is amazing -- cheap, fast, delicious, and everywhere. Transportation is fast and readily available. People are really friendly. Altogether, it was really fun & interesting to see the differences between their society and ours. 
 
-Lots of things stood out, but 2 things that really impressed me were the transportation and self-serve culture.
+Lots of things stood out, but 2 things that really impressed me were the transportation and the self-serve culture.
 
 <hr>
 
@@ -33,7 +33,7 @@ Bonus -- Taiwan also has a bunch of public bike racks around town that you can c
 
 ![taiwanbike](/images/taiwan-bike.jpg)
 
-**Self Serve/Police Culture**
+**Self Serve Culture**
 
 Outside of transportation, one of the major differences that I noticed between Taiwan and America was an inherent culture of self serve. Everything and everyone seemed to be very self contained and respectful of their surroundings. 
 

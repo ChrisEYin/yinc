@@ -1,6 +1,5 @@
 ---
 title: How I Use The Web
-subtitle: Different web/mobile services I use to improve my life.
 layout: post
 ---
 

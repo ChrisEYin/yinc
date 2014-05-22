@@ -7,17 +7,25 @@ title: Quotes
 
 -Mahatma Gandhi
 
->"Success consists of going from failure to failure without loss of enthuasiasm."
+>"Money is circulated. Time is spent."
 
--Winston Churchill
+-Frank Chimero
+
+>"Vision without execution is hallucination."
+
+-Thomas Edison
+
+>"Good judgement comes from experience. And experience comes from bad judgement."
+
+-Rita Mae Brown  
 
 >"Success breeds complacency. Complacency breeds failure. Only the paranoid survive."
 
 -Andy Grove
 
->"Good judgement comes from experience. And experience comes from bad judgement."
+>"Success consists of going from failure to failure without loss of enthuasiasm."
 
--Rita Mae Brown  
+-Winston Churchill
 
 >"Happiness is when what you think, what you say, and what you do are in harmony."
 

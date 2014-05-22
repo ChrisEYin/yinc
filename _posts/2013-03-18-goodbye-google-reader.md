@@ -1,6 +1,5 @@
 ---
 title: Goodbye Google Reader
-subtitle: You've been good to me. I'm sorry to see you go.
 layout: post
 ---
 
