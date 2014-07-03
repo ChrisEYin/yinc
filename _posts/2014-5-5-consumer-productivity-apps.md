@@ -5,7 +5,7 @@ layout: post
 
 People don't like paying for software. Despite being incredibly cheap relative to how much value it provides, most people still gawk at the idea of paying for a $.99 app (or any software). Why? 
 
-I was thinking about this after reading Hunter Walk's recent post, ['Why won't consumers pay for productivity apps?''](http://hunterwalk.com/2014/04/24/why-wont-consumers-pay-for-productivity-apps/). His point -- consumer productivity software might fare better if they exposed metrics about the value they were providing -- ie. how much time they saved you, how many emails they sent for you, etc.
+I was thinking about this after reading Hunter Walk's recent post, ['Why won't consumers pay for productivity apps?'](http://hunterwalk.com/2014/04/24/why-wont-consumers-pay-for-productivity-apps/). His point -- consumer productivity software might fare better if they exposed metrics about the value they were providing -- ie. how much time they saved you, how many emails they sent for you, etc.
 
 I was shocked to see most commenters either agreeing or pointing to other examples of productivity software that smartly did this. While they weren't wrong -- it probably would be helpful if productivity software promoted their metrics more -- they were all missing the point entirely.
 

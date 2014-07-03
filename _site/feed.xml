@@ -6,9 +6,123 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 22 May 2014 14:11:01 +0000</pubDate>
-    <lastBuildDate>Thu, 22 May 2014 14:11:01 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Jul 2014 22:33:38 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Jul 2014 22:33:38 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>The Dangers of Selling Roadmap</title>
+      <link>http://www.chrisyin.com/2014/06/29/Dangers-of-Selling-Roadmap/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/06/29/Dangers-of-Selling-Roadmap</guid>
+      <description>&lt;p&gt;Saw this on Twitter a few weeks ago &lt;/p&gt;
+&lt;blockquote class='twitter-tweet' lang='en'&gt;&lt;p&gt;&lt;a href='https://twitter.com/GreggDourgarian'&gt;@GreggDourgarian&lt;/a&gt; It&amp;#39;s the difference between selling your product and selling your engineering bandwidth. The latter is your lifeblood.&lt;/p&gt;&amp;mdash; David Sacks (@DavidSacks) &lt;a href='https://twitter.com/DavidSacks/statuses/474400870910554112'&gt;June 5, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;Everyone does it. It’s especially tempting to sell roadmap when you’re early in the game and you need the customers/revenue to gain some traction. But at some point you need to stop.&lt;/p&gt;
+
+&lt;p&gt;Every time you sell engineering bandwidth, you incur some debt. The business continues forward, but development lingers behind trying to fulfill the promises. Eventually the delta gets very large, and you’ve got a real problem.&lt;/p&gt;
+
+&lt;p&gt;There’s 2 big problems with selling features/roadmap -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/features-iceberg.png&quot; alt=&quot;feature-iceberg&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;It’s hard to keep track of. Building features is not just development - there’s lots of hidden costs outside of pure development. Which means the estimates (especially those made during a sales cycle) are frequently incorrect. These backlogged items are very hard to keep track of and can build up very quickly. Before you know it, you can be backlogged for a very long time, derailing your entire product strategy and roadmap.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Sales can develop a habit of relying on this. When sales begins relying on selling promised features instead of product, it’s no longer a value sell. It becomes a feature/function war, and the customer will view you as a commodity instead of valued partner - meaning you’re replaceable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It’s not easy and it takes discipline as an organization, but in order to build a scaleable business with a solid foundation, you have to rely on selling a solution, and not features of a product. Especially ones that don’t exist yet.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>10 Commandments For Every Product Manager</title>
+      <link>http://www.chrisyin.com/2014/06/26/10-Rules-For-Every-Product-Manager/</link>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/06/26/10-Rules-For-Every-Product-Manager</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/dilbert-pm.png&quot; alt=&quot;dilbert-pm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve had a lot of people ask me what a PM is or does. Everyone has their own definition but here’s my take.&lt;/p&gt;
+
+&lt;p&gt;The job of the PM is to create scaleable revenue via product. This means always being in sync with both the macro and the micro – from business opportunity, risks, competition – to which features to build, active deals, risk customers, etc.&lt;/p&gt;
+
+&lt;p&gt;The job is to then synthesize all of that information and turn it into a roadmap. And a roadmap isn’t just a list of features to build. It’s a plan on how to build a scaleable and profitable business around a product. This means owning the entire product – development, distribution, and maintenance.&lt;/p&gt;
+
+&lt;p&gt;To do this, the PM needs to not only enable other teams (development, ops, sales, services, support, marketing) in the organization to succeed, but they need to deeply understand how each team functions – what’s working and what’s broken – what to fix now and what can wait.&lt;/p&gt;
+
+&lt;p&gt;And lastly, the PM’s job is to take all of blame and none of the credit. It’s to be the leader, the backbone, and the glue of the organization. Anything short of this is failure.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In a bit more detail – &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Own The Vision&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Find it ruthlessly by living in the future, and constantly reassess it against the current state of things. Set aside time regularly to think about this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Understand Reality&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While you need to dream up a grand vision, you also have to keep your eyes on the road at the same time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;‘Vision without execution is hallucination.’&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Communicate&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can’t achieve greatness alone. There’s always a team involved, and make sure everyone understands where they’re going, how, and why. Dont’ be afraid to constantly repeat yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Prioritize Ruthlessly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are endless things you can get pulled in – dev, sales, support, services – but there’s only 24 hours a day – where is your time best spent? Make sure every minute you spend working has the highest impact.&lt;/p&gt;
+
+&lt;p&gt;A good way to think about this is – (Value created) / (time spent).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Own The Product&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You should know the in’s and out’s of your product. Know the short term, long term, any debt you’re building up, quick wins, gamechangers, experiments, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Own Distribution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sales/Marketing is not someone else’s problem. It’s yours. Make sure your messaging is right, people can find your product, use it, extract real value, and then tell others about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Own Support&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Regardless what business you’re in, you need users/customers. In almost all cases, the more the better (for us in SaaS, you live and die by LTV). High churn will kill you just as fast as a lack of sales. Great support keeps your users/customers with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Always Be Learning&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’re going to make mistakes. That’s fine. What’s not fine is repeating those mistakes. You must constantly be evaluating the outcome – what worked, what didn’t work and learn from it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Don’t Let Competition Distract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Keep your ears open on competitors, but don’t let them affect your plans. This takes a tremendous amount of discipline. Practice it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Always Be Recruiting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Resourcing is your problem, not HR’s. If you can’t sell the opportunity to somebody, you’ve got bigger problems.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;All of this above can seem like a lot to take in, and it’s easy to get overwhelmed. The job of the PM is to understand all of this, prioritize, and balance their time and energy across all of these things. It’s not easy, but ultimately it’s incredibly rewarding. Hopefully that helps!&lt;/p&gt;
+
+&lt;p&gt;Some additional reading about PM from some smart people :) &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.quora.com/Product-Management/What-distinguishes-the-Top-1-of-Product-Managers-from-the-Top-10&quot;&gt;How to be a 1% PM - Ian McAllister&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://benhorowitz.files.wordpress.com/2010/05/good-product-manager.pdf&quot;&gt;Good PM, Bad PM - Ben Horowitz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.adamnash.com/2011/12/16/be-a-great-product-leader/&quot;&gt;Be a Great Product Leader - Adam Nash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/techtalk/archive/2005/12/16/504872.aspx&quot;&gt;PM at Microsoft - Steven Sinofsky&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.sachinrekhi.com/blog/2013/03/18/the-art-of-decision-making-as-a-product-manager&quot;&gt;Art of Decision Making as a PM - Sachin Rekhi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pmarchive.com/guide_to_startups_part4.html&quot;&gt;The Only Thing That Matters - Marc Andreessen&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
@@ -44,7 +158,7 @@
       <guid>http://www.chrisyin.com/2014/05/05/consumer-productivity-apps</guid>
       <description>&lt;p&gt;People don’t like paying for software. Despite being incredibly cheap relative to how much value it provides, most people still gawk at the idea of paying for a $.99 app (or any software). Why?&lt;/p&gt;
 
-&lt;p&gt;I was thinking about this after reading Hunter Walk’s recent post, &lt;a href=&quot;http://hunterwalk.com/2014/04/24/why-wont-consumers-pay-for-productivity-apps/&quot;&gt;‘Why won’t consumers pay for productivity apps?&lt;/a&gt;. His point – consumer productivity software might fare better if they exposed metrics about the value they were providing – ie. how much time they saved you, how many emails they sent for you, etc.&lt;/p&gt;
+&lt;p&gt;I was thinking about this after reading Hunter Walk’s recent post, &lt;a href=&quot;http://hunterwalk.com/2014/04/24/why-wont-consumers-pay-for-productivity-apps/&quot;&gt;‘Why won’t consumers pay for productivity apps?’&lt;/a&gt;. His point – consumer productivity software might fare better if they exposed metrics about the value they were providing – ie. how much time they saved you, how many emails they sent for you, etc.&lt;/p&gt;
 
 &lt;p&gt;I was shocked to see most commenters either agreeing or pointing to other examples of productivity software that smartly did this. While they weren’t wrong – it probably would be helpful if productivity software promoted their metrics more – they were all missing the point entirely.&lt;/p&gt;
 
