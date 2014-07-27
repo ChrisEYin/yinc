@@ -6,9 +6,160 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 03 Jul 2014 22:33:38 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Jul 2014 22:33:38 +0000</lastBuildDate>
+    <pubDate>Sun, 27 Jul 2014 23:38:58 +0000</pubDate>
+    <lastBuildDate>Sun, 27 Jul 2014 23:38:58 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>Hot Teams</title>
+      <link>http://www.chrisyin.com/2014/07/26/Hot-Teams/</link>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/07/26/Hot-Teams</guid>
+      <description>&lt;p&gt;I was watching &lt;a href=&quot;https://www.youtube.com/watch?v=9JOibQNHyF0&quot;&gt;PandoMonthly’s Mike Maples&lt;/a&gt; interview the other day, and he mentioned a concept called ‘Hot Teams’.&lt;/p&gt;
+
+&lt;p&gt;A hot team is defined as a team that is exponentially more productive than other teams. This is the essence of good startups, and was thinking about this concept - ie what makes up a hot team?&lt;/p&gt;
+
+&lt;p&gt;So after &lt;a href=&quot;http://www.designthinkingblog.com/http:/www.designthinkingblog.com/tom-kelley-on-ideo-and-effective-innovation/#sthash.J3cmukih.dpuf&quot;&gt;a bit of&lt;/a&gt; &lt;a href=&quot;http://www.basadur.com/insightsresearch/OurThoughtsonCreativityandInnovation/HowDoYouCreateaHotTeam/tabid/115/Default.aspx&quot;&gt;reading around&lt;/a&gt;, I came to this -&lt;/p&gt;
+
+&lt;p&gt;A hot team is a group that is defined by the following characteristics:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;There’s a vision that people believe in.&lt;/li&gt;
+
+&lt;li&gt;Nobody is above any job.&lt;/li&gt;
+
+&lt;li&gt;Ideas and truth always win.&lt;/li&gt;
+
+&lt;li&gt;Any individual can make a difference.&lt;/li&gt;
+
+&lt;li&gt;Temporary brokenness is better than permanent paralysis.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The net of this is this to form a team that fits &lt;a href=&quot;http://25iq.com/2014/07/13/a-dozen-things-ive-learned-from-peter-thiel/&quot;&gt;Peter Thiel’s High Alignment / High Trust&lt;/a&gt; matrix.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hotteamsmatrix.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So for those of us that manage teams (especially in a startup), we need remember to always to live by the principles above to win.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How To Figure Out A Competitor's Strategy</title>
+      <link>http://www.chrisyin.com/2014/07/21/How-To-Figure-Out-A-Competitor/</link>
+      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/07/21/How-To-Figure-Out-A-Competitor</guid>
+      <description>&lt;p&gt;When evaluating any opportunity/company/etc, you should always do a competitive analysis. A competitive analysis is an overview of the landscape – what’s the space, who are the players, their strategy, and how are they’re doing.&lt;/p&gt;
+
+&lt;p&gt;This is typically done in a few ways – read about the space in an analyst report (or some general market overview), understand the problem/proposed solution, identify competitors, and then read about them. (I’ll write about each piece in a different post).&lt;/p&gt;
+
+&lt;p&gt;To read into competitors, you can run through a few sites to get a good general overview – the company’s Businessweek profile, Crunchbase, AngelList, Wikipedia, etc. To get a more in depth overview, you can read the company’s website, blog, press releases, and product review. Through reading all of this, you can start to get an understanding of the product, the business and strategy.&lt;/p&gt;
+
+&lt;p&gt;While helpful, the problem is that this type of public information rarely provides anything unique or enlightening. While you can sort of glean a semblance of a strategy from all of this, it can be tough to figure out what is actually going on at the company.&lt;/p&gt;
+
+&lt;p&gt;A good way to get deeper insight into a company is reading through the company’s career page. The job posts that a company has out are very revealing into what the company is currently focused on. They’re either hiring to fix a problem (weakness) or they’re hiring to invest in that particular area (strategy).&lt;/p&gt;
+
+&lt;p&gt;An extension of this is read into past hires – management team, leadership, old employees &amp;amp; new employees. If you read into their backgrounds, tenure, people who left and new hires, you can get a deeper sense into the dynamics and pace of the company.&lt;/p&gt;
+
+&lt;p&gt;Pairing the people and hiring patterns of a company with press &amp;amp; other company news can give you a deeper understanding and more ammo when trying to understand a company from the outside.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Let's Stop Saying B2B</title>
+      <link>http://www.chrisyin.com/2014/07/09/lets-stop-saying-b2b/</link>
+      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/07/09/lets-stop-saying-b2b</guid>
+      <description>&lt;p&gt;Recently I’ve been seeing more people using the word B2B incorrectly. Mostly falsely conflating B2B, SMB and Enterprise (esp in the startup world). They are vastly different, so here’s my attempt to clear it up.&lt;/p&gt;
+
+&lt;p&gt;A bit of context - I work at &lt;a href=&quot;http://bit.ly/U4ZvG1&quot;&gt;Coupa&lt;/a&gt;, a late stage enterprise software startup. We build and sell software to large companies via subscription model. Before, I was at &lt;a href=&quot;http://bit.ly/18MuCue&quot;&gt;Xpenser&lt;/a&gt;. We built and sold subscription software to businesses of any size, but primarily in the SMB space.&lt;/p&gt;
+
+&lt;p&gt;Both are B2B companies. But B2B != enterprise or SMB. Grouping them together or comparing any SMB focused startup to an enterprise focused startup is plain wrong.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;In both cases, we were selling software to businesses with 1 goal – making sure that Lifetime value of the customer (how much they paid us over the length of our relationship, LTV) was greater than the cost of customer acquisition (how much it cost us to get &amp;amp; support them, CAC). LTV &amp;gt; CAC.&lt;/p&gt;
+
+&lt;p&gt;However, different strategies led us to different places.&lt;/p&gt;
+
+&lt;p&gt;At Xpenser, we embraced freemium – free for individuals &amp;amp; $9/user/month for companies. Users can try for free &amp;amp; setup their own accounts. The goal was to convert users that were business users, and use free users as marketing. Flat fee per month included everything (setup, support, etc).&lt;/p&gt;
+
+&lt;p&gt;At Coupa, there is no free user plan. There isn’t even a place to sign up. We directly sell (or channel) multi-year contracts to big companies. The pricing varies and we also additionally charge for implementation (setup), integrations, and provide different tiers of support plans.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Freemium at Xpenser attracted SMB’s, and direct sales at Coupa gets us enterprise accounts.&lt;/p&gt;
+
+&lt;p&gt;To define SMB vs. Enterprise:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Small_and_medium_enterprises&quot;&gt;Small &amp;amp; Medium sized Businesses (SMB’s)&lt;/a&gt; – while defined in many different ways, for the sake of this post, we’ll say that SMB’s are companies with less than 250 employees or $50M in revenue.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Enterprise = large companies. Multi hundred millions to billions in revenue &amp;amp; large organizations (often public companies) with lots of people in offices globally. Think biggest companies in the world.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;The core difference between SMB &amp;amp; Enterprise is their behavior – how they discover, buy &amp;amp; use software. This difference in behavior shapes how you interact with them and how to build your product &amp;amp; your company.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SMB’s&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;SMB’s are more like consumers in the way they discover &amp;amp; purchase software - through news, marketing, referrals and they value price, efficiency &amp;amp; speed. A few points -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;They’re cheaper &amp;amp; pay you less.&lt;/li&gt;
+
+&lt;li&gt;They have less requirements.&lt;/li&gt;
+
+&lt;li&gt;They buy and setup faster.&lt;/li&gt;
+
+&lt;li&gt;The buyer and user are often the same.&lt;/li&gt;
+
+&lt;li&gt;Cost of switching is low (not much sunken cost &amp;amp; lots of alternatives).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Conversion, cost of sale &amp;amp; $/customer is low. Cost of support/maintenance is mid-high, cost of switching is low, and churn is high.&lt;/p&gt;
+
+&lt;p&gt;Meaning for LTV &amp;gt; CAC to work, you need lots &amp;amp; lots of customers to sign up &amp;amp; setup by themselves, not leave too quickly, and not bug you for support. The more support, the harder it is for the math to work out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enterprise&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Enterprise buyers are very different in how they discover and buy software. Discovery is through analyst reports &amp;amp; direct/channel sales. Lots of decision makers (slow moving) &amp;amp; different incentives (sometimes conflicting with common sense) and they value stability, proven outcomes, &amp;amp; safe decisions.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;They’re not as price sensitive. Big checks.&lt;/li&gt;
+
+&lt;li&gt;Buying takes a long time. &lt;em&gt;Lots&lt;/em&gt; of people involved.&lt;/li&gt;
+
+&lt;li&gt;They have massive requirements. Not all are logical.&lt;/li&gt;
+
+&lt;li&gt;The buyer and user are not often the same (affects churn).&lt;/li&gt;
+
+&lt;li&gt;Cost of switching is high (lots of sunken cost in buying &amp;amp; setting up).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Conversion is high(-er than free trial converts), $/customer &amp;amp; cost of sale/support/switching are all high, and churn is lower.&lt;/p&gt;
+
+&lt;p&gt;Meaning for LTV &amp;gt; CAC, you need a lot of sales/implementations/support people to land a few massive customers over time and then keep them. Costs a lot up front, but over time the math works out.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;These are 2 different customers with entirely different behaviors. And the reason they don’t overlap is the product you build &amp;amp; the distribution strategy for 1 audience has very little overlap with the other.&lt;/p&gt;
+
+&lt;p&gt;For SMB’s, they care about buying a product that solves their business problem. So focusing solely on product works. Discovery &amp;amp; distribution is via marketing &amp;amp; converting signups/free trials. It’s nice – low CAC.&lt;/p&gt;
+
+&lt;p&gt;Bad news is $/customers is low, churn is high and support can also be high. So hitting a meaningful LTV &amp;gt; CAC requires lots of customers, low touch conversions and little support. With low of cost of switching &amp;amp; high curn in a crowded market like SMB software, that can be tough. Some companies try to jump from SMB to enterprise, but it’s incredibly difficult.&lt;/p&gt;
+
+&lt;p&gt;In the Enterprise, the buyer is buying a solution for 1000’s of people. Meaning lots of $ to spend, lots of requirements, and it’s important for them to make the right decision (long decision cycle). For the same formula to work, you need much higher $/customer (ACV) in order to cover the initial high cost of sale (long sales cycle, implementation, support).&lt;/p&gt;
+
+&lt;p&gt;Solving a business problem is not enough either – you need to meet RFP requirements, which always includes cumbersome things like expensive security compliance, IE7/8 support, and unnecessary features that are reminders of an old broken process. Building an RFP ready product is not always the same as building a good/usable product (user != buyer).&lt;/p&gt;
+
+&lt;p&gt;So even when operating in the same space, both SMB/Enterprise businesses are entirely different. Customers, discovery, distribution, and product all differ. Even if an SMB manages to attract an enterprise client, they won’t be equipped to handle the enterprise sales cycle. Or their product won’t make it past the RFP. And visa versa – if an enterprise startup tried to attract an SMB client, they would likely be too expensive, move too slowly, or the product would look too far off from what the client is expecting.&lt;/p&gt;
+
+&lt;p&gt;So which is better? Neither. There are fantastic companies that have executed on both strategies. But they’re not the same, so let’s stop falsely conflating SMB/Enterprise.&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
@@ -947,7 +1098,7 @@ $ subl --help
     
     
     <item>
-      <title>Reading Notes - Made to Stick</title>
+      <title>Book Notes - Made to Stick</title>
       <link>http://www.chrisyin.com/2013/05/28/made-to-stick/</link>
       <pubDate>Tue, 28 May 2013 00:00:00 +0000</pubDate>
       <author></author>
