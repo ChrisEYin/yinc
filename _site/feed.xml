@@ -6,8 +6,13 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
+<<<<<<< HEAD
     <pubDate>Mon, 28 Jul 2014 00:08:57 +0000</pubDate>
     <lastBuildDate>Mon, 28 Jul 2014 00:08:57 +0000</lastBuildDate>
+=======
+    <pubDate>Mon, 28 Jul 2014 00:05:45 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Jul 2014 00:05:45 +0000</lastBuildDate>
+>>>>>>> 6c20b49eaad85dcc46f299d2f29df73cb85da706
 
     
     
