@@ -92,3 +92,26 @@ body.nav-hidden {
     }
 }
 
+@mixin inline-block {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+}
+
+.pagination {
+  height: 20px;
+  position: absolute; 
+  top: 62px;
+  width: 100%;
+  .page-nav {
+    font-size: 0;
+    /* @include inline-block; */
+    display: block;
+    height: 0;
+    border: 8px solid transparent;
+  }
+  .previous { float: left; margin-left: -25px; border-right: 10px solid #ddd; border-left-width: 0; }
+  .next { float: right; margin-right: -25px; border-left: 10px solid #ddd; border-right-width: 0; }
+}
