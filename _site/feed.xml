@@ -6,8 +6,8 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 24 Aug 2014 04:19:09 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Aug 2014 04:19:09 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Aug 2014 21:02:09 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Aug 2014 21:02:09 +0000</lastBuildDate>
 
     
     
@@ -17,9 +17,9 @@
       <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://www.chrisyin.com/2014/08/23/jekyll-related-posts</guid>
-      <description>&lt;p&gt;Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but certainly wasn’t as straight forward as I expected.&lt;/p&gt;
+      <description>&lt;p&gt;Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but also wasn’t as straight forward as I expected.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; is pretty light and wasn’t really helpful for related posts. Also, &lt;a href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;general sentiment&lt;/a&gt; &lt;a href=&quot;http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/&quot;&gt;on the internet&lt;/a&gt; is that Jekyll’s related posts are subpar.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; is pretty light and wasn’t really helpful for related posts. Also, &lt;a href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;general sentiment&lt;/a&gt; &lt;a href=&quot;http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/&quot;&gt;on the internet&lt;/a&gt; is that Jekyll’s existing related posts function is subpar.&lt;/p&gt;
 
 &lt;p&gt;Most signs point to &lt;a href=&quot;https://github.com/LawrenceWoodman/related_posts-jekyll_plugin&quot;&gt;Lawrence Woodman’s library&lt;/a&gt; for overwriting Jekyll’s existing related posts function and replacing it with a better one.&lt;/p&gt;
 

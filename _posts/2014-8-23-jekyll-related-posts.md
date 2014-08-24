@@ -5,9 +5,9 @@ tags:
 - code
 ---
 
-Spent some time this weekend trying to implement 'Related Posts' onto my blog. Wasn't hard, but certainly wasn't as straight forward as I expected.
+Spent some time this weekend trying to implement 'Related Posts' onto my blog. Wasn't hard, but also wasn't as straight forward as I expected.
 
-[Jekyll's documentation](http://jekyllrb.com/docs/configuration/) is pretty light and wasn't really helpful for related posts. Also, [general sentiment](http://charliepark.org/tags-in-jekyll/) [on the internet](http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/) is that Jekyll's related posts are subpar.
+[Jekyll's documentation](http://jekyllrb.com/docs/configuration/) is pretty light and wasn't really helpful for related posts. Also, [general sentiment](http://charliepark.org/tags-in-jekyll/) [on the internet](http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/) is that Jekyll's existing related posts function is subpar.
 
 Most signs point to [Lawrence Woodman's library](https://github.com/LawrenceWoodman/related_posts-jekyll_plugin) for overwriting Jekyll's existing related posts function and replacing it with a better one. 
 
