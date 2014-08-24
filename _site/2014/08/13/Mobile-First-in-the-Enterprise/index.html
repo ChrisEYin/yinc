@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First in the Enterprise &mdash; Chris Yin</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/images/CircleYin.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/CircleYin.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Chris Yin" />
+    <meta name="title" content="Mobile First in the Enterprise ">
+    <link rel="canonical" href="http://www.chrisyin.com/2014/08/13/Mobile-First-in-the-Enterprise/">
+     
+           
+    <meta property="og:title" content="Mobile First in the Enterprise "/>
+    <meta property="og:url" content="http://www.chrisyin.com/2014/08/13/Mobile-First-in-the-Enterprise/"/>
+    
+    <!--
+    <meta property="og:description" content="<p><img src="/images/star-trek-phone.jpg" alt="star-trek-phone" /></p>
+
+<p>I work in enterprise software. The product that our company builds is a web app and we have mobile apps that act as an extension of our web app. It seems obvious coming from consumer internet, but I still see RFP’s that ask if we sell SaaS or on premise software. That’s the enterprise.</p>
+
+<p>The enterprise moves slowly. It took a long time for companies to come around to actually using the web in the workplace (and still not everyone has yet). That being said, we’ve largely passed the era where you had to prove to buyers that cloud was a superior delivery model than on premise. That is taken almost as fact now and with companies like Workday, Salesforce, Netsuite, etc. now commonplace in the enterprise, those concerns have mostly been negated. Now the transition to the web is happening.</p>
+
+<p>Meanwhile, there’s another trend that is going to shape the next wave of enterprise software companies – mobile.</p>
+
+<p>As the enterprise shifts from desktop to the web, the same will inevitably happen from web to mobile. With mobile harnessing the same benefits of the web with the added benefit of being always accessible, always connected and easy to use, the enterprise will inevitably make the shift to a predominantly mobile workforce. This is reinforced with the fact that enterprise mobile activations continually go up every quarter as well as the recent Apple / IBM deal.</p>
+
+<p>When I’ve floated this around, people always retort with – ‘Enterprise software is complex and difficult to use. How is that going to work on a tiny device?’ A totally valid question, and capturing RFP ready functionality on a mobile device is not easy. But the shift towards mobile in the enterprise is certainly happening, and whether it’s a shift towards mobile as a complement to SaaS based enterprise software or a replacement is a separate point. It’s happening, and the next set of great enterprise companies will not have the luxury of treating mobile as an afterthought or nice to have – it will be a requirement and they will have to think mobile first.</p>
+<hr />
+<p>In that context, I’ve been thinking about enterprise mobile with regard to unbundling / bundling (<a href="http://ben-evans.com/benedictevans/2014/8/1/app-unbundling-search-and-discovery">Ben Evans</a>, <a href="http://blogs.hbr.org/2014/06/how-to-succeed-in-business-by-bundling-and-unbundling/">Marc Andreessen</a>). My understanding of unbundling / bundling is as simple this – things are built to solve problems with today’s technologies. As advancements are made, one can rethink how the same problems can be solved with newer technology. As the new and better solutions are built, they usually ends up looking drastically different – and starting off just focused on a doing a single piece really well (unbundling). As that reaches <a href="http://web.archive.org/web/20070701074943/http://blog.pmarca.com/2007/06/the-pmarca-gu-2.html">product market fit</a>, other features and services are added on top (bundling). As another major technology shift happens, the cycle repeats.</p>
+
+<p>While the theory of bundling/unbundling has certainly proved true in the consumer world (<a href="https://www.facebook.com/mobile/messenger">Facebook Messenger</a>, <a href="https://www.swarmapp.com/">Swarm</a>, <a href="http://googledrive.blogspot.com/2014/04/docssheetsapps.html">Google Docs/Sheets/Slides</a>), I’m interested to see how this will play out and if this even rings true in the enterprise. There has already been some unbundling (Salesforce, Workday, Coupa) from incumbents (Oracle, SAP) – and I believe there will be even further unbundling in the context of mobile. The new applications that come out will be mobile first products focused on actions that take advantage of mobile’s form factor and the built in sensors. Eventually products that do that well will rise to prominence and we’ll see another wave of those bundling.</p>
+
+<p>Regardless of how it plays out, mobile is transfomrative to the enterprise, and I’m interested in seeing how this evolves over time and what innovative companies/products come out of it.</p>"/>
+    <meta name="description" content="<p><img src="/images/star-trek-phone.jpg" alt="star-trek-phone" /></p>
+
+<p>I work in enterprise software. The product that our company builds is a web app and we have mobile apps that act as an extension of our web app. It seems obvious coming from consumer internet, but I still see RFP’s that ask if we sell SaaS or on premise software. That’s the enterprise.</p>
+
+<p>The enterprise moves slowly. It took a long time for companies to come around to actually using the web in the workplace (and still not everyone has yet). That being said, we’ve largely passed the era where you had to prove to buyers that cloud was a superior delivery model than on premise. That is taken almost as fact now and with companies like Workday, Salesforce, Netsuite, etc. now commonplace in the enterprise, those concerns have mostly been negated. Now the transition to the web is happening.</p>
+
+<p>Meanwhile, there’s another trend that is going to shape the next wave of enterprise software companies – mobile.</p>
+
+<p>As the enterprise shifts from desktop to the web, the same will inevitably happen from web to mobile. With mobile harnessing the same benefits of the web with the added benefit of being always accessible, always connected and easy to use, the enterprise will inevitably make the shift to a predominantly mobile workforce. This is reinforced with the fact that enterprise mobile activations continually go up every quarter as well as the recent Apple / IBM deal.</p>
+
+<p>When I’ve floated this around, people always retort with – ‘Enterprise software is complex and difficult to use. How is that going to work on a tiny device?’ A totally valid question, and capturing RFP ready functionality on a mobile device is not easy. But the shift towards mobile in the enterprise is certainly happening, and whether it’s a shift towards mobile as a complement to SaaS based enterprise software or a replacement is a separate point. It’s happening, and the next set of great enterprise companies will not have the luxury of treating mobile as an afterthought or nice to have – it will be a requirement and they will have to think mobile first.</p>
+<hr />
+<p>In that context, I’ve been thinking about enterprise mobile with regard to unbundling / bundling (<a href="http://ben-evans.com/benedictevans/2014/8/1/app-unbundling-search-and-discovery">Ben Evans</a>, <a href="http://blogs.hbr.org/2014/06/how-to-succeed-in-business-by-bundling-and-unbundling/">Marc Andreessen</a>). My understanding of unbundling / bundling is as simple this – things are built to solve problems with today’s technologies. As advancements are made, one can rethink how the same problems can be solved with newer technology. As the new and better solutions are built, they usually ends up looking drastically different – and starting off just focused on a doing a single piece really well (unbundling). As that reaches <a href="http://web.archive.org/web/20070701074943/http://blog.pmarca.com/2007/06/the-pmarca-gu-2.html">product market fit</a>, other features and services are added on top (bundling). As another major technology shift happens, the cycle repeats.</p>
+
+<p>While the theory of bundling/unbundling has certainly proved true in the consumer world (<a href="https://www.facebook.com/mobile/messenger">Facebook Messenger</a>, <a href="https://www.swarmapp.com/">Swarm</a>, <a href="http://googledrive.blogspot.com/2014/04/docssheetsapps.html">Google Docs/Sheets/Slides</a>), I’m interested to see how this will play out and if this even rings true in the enterprise. There has already been some unbundling (Salesforce, Workday, Coupa) from incumbents (Oracle, SAP) – and I believe there will be even further unbundling in the context of mobile. The new applications that come out will be mobile first products focused on actions that take advantage of mobile’s form factor and the built in sensors. Eventually products that do that well will rise to prominence and we’ll see another wave of those bundling.</p>
+
+<p>Regardless of how it plays out, mobile is transfomrative to the enterprise, and I’m interested in seeing how this evolves over time and what innovative companies/products come out of it.</p>"/>
+     -->
+    <meta property="og:site_name" content="Chris Yin">
+    <!--Sumome Plugin -->
+    <script src="//load.sumome.com/" data-sumo-site-id="9ab9472d0d4be1e3018f7e4143e4d815f5d3b7d5bce0b041f56a425c97d35b29" async></script> 
+</head>
+<body>
+     
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <!--<a class="brand" href="/">
+                <img src="/images/CircleYin.png" alt="Inc">
+            </a>-->
+            <a href="/" class="">Home</a>
+            <a href="/about" class="">About</a>
+            <a href="/quotes" class="">Quotes</a>
+        </nav>
+        
+    </header>
+</section>
+
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                <time pubdate datetime="2014-13-August" title="August 13, 2014">August 13, 2014</time>
+            </div>
+            <h1 class="title">Mobile First in the Enterprise</h1>
+            <!---->
+        </header>
+
+        <section>
+          <p><img src="/images/star-trek-phone.jpg" alt="star-trek-phone" /></p>
+
+<p>I work in enterprise software. The product that our company builds is a web app and we have mobile apps that act as an extension of our web app. It seems obvious coming from consumer internet, but I still see RFP’s that ask if we sell SaaS or on premise software. That’s the enterprise.</p>
+
+<p>The enterprise moves slowly. It took a long time for companies to come around to actually using the web in the workplace (and still not everyone has yet). That being said, we’ve largely passed the era where you had to prove to buyers that cloud was a superior delivery model than on premise. That is taken almost as fact now and with companies like Workday, Salesforce, Netsuite, etc. now commonplace in the enterprise, those concerns have mostly been negated. Now the transition to the web is happening.</p>
+
+<p>Meanwhile, there’s another trend that is going to shape the next wave of enterprise software companies – mobile.</p>
+
+<p>As the enterprise shifts from desktop to the web, the same will inevitably happen from web to mobile. With mobile harnessing the same benefits of the web with the added benefit of being always accessible, always connected and easy to use, the enterprise will inevitably make the shift to a predominantly mobile workforce. This is reinforced with the fact that enterprise mobile activations continually go up every quarter as well as the recent Apple / IBM deal.</p>
+
+<p>When I’ve floated this around, people always retort with – ‘Enterprise software is complex and difficult to use. How is that going to work on a tiny device?’ A totally valid question, and capturing RFP ready functionality on a mobile device is not easy. But the shift towards mobile in the enterprise is certainly happening, and whether it’s a shift towards mobile as a complement to SaaS based enterprise software or a replacement is a separate point. It’s happening, and the next set of great enterprise companies will not have the luxury of treating mobile as an afterthought or nice to have – it will be a requirement and they will have to think mobile first.</p>
+<hr />
+<p>In that context, I’ve been thinking about enterprise mobile with regard to unbundling / bundling (<a href="http://ben-evans.com/benedictevans/2014/8/1/app-unbundling-search-and-discovery">Ben Evans</a>, <a href="http://blogs.hbr.org/2014/06/how-to-succeed-in-business-by-bundling-and-unbundling/">Marc Andreessen</a>). My understanding of unbundling / bundling is as simple this – things are built to solve problems with today’s technologies. As advancements are made, one can rethink how the same problems can be solved with newer technology. As the new and better solutions are built, they usually ends up looking drastically different – and starting off just focused on a doing a single piece really well (unbundling). As that reaches <a href="http://web.archive.org/web/20070701074943/http://blog.pmarca.com/2007/06/the-pmarca-gu-2.html">product market fit</a>, other features and services are added on top (bundling). As another major technology shift happens, the cycle repeats.</p>
+
+<p>While the theory of bundling/unbundling has certainly proved true in the consumer world (<a href="https://www.facebook.com/mobile/messenger">Facebook Messenger</a>, <a href="https://www.swarmapp.com/">Swarm</a>, <a href="http://googledrive.blogspot.com/2014/04/docssheetsapps.html">Google Docs/Sheets/Slides</a>), I’m interested to see how this will play out and if this even rings true in the enterprise. There has already been some unbundling (Salesforce, Workday, Coupa) from incumbents (Oracle, SAP) – and I believe there will be even further unbundling in the context of mobile. The new applications that come out will be mobile first products focused on actions that take advantage of mobile’s form factor and the built in sensors. Eventually products that do that well will rise to prominence and we’ll see another wave of those bundling.</p>
+
+<p>Regardless of how it plays out, mobile is transfomrative to the enterprise, and I’m interested in seeing how this evolves over time and what innovative companies/products come out of it.</p>
+          
+        </section>
+        
+          <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'chrisyin'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+          </section>
+        
+    </div>
+</article>
+
+<footer class="site-footer">
+    <div class="container">
+        <nav>
+            &copy; 2014
+            <a href="http://chrisyin.com/">Chris Yin</a> &middot;
+            <a href="/about">About</a> &middot;
+            <a href="/quotes">Quotes</a>
+        </nav>
+        <!--
+        <nav class="social">
+            
+            <a href="https://twitter.com/chriseyin" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>-->
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35234352-1', 'http://www.chrisyin.com');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
