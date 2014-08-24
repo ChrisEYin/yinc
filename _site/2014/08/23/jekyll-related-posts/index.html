@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jekyll Related Posts &mdash; Chris Yin</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/images/CircleYin.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/CircleYin.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Chris Yin" />
+    <meta name="title" content="Jekyll Related Posts ">
+    <link rel="canonical" href="http://www.chrisyin.com/2014/08/23/jekyll-related-posts/">
+     
+           
+    <meta property="og:title" content="Jekyll Related Posts "/>
+    <meta property="og:url" content="http://www.chrisyin.com/2014/08/23/jekyll-related-posts/"/>
+    
+    <!--
+    <meta property="og:description" content="<p>Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but certainly wasn’t as straight forward as I expected.</p>
+
+<p><a href="http://jekyllrb.com/docs/configuration/">Jekyll’s documentation</a> is pretty light and wasn’t really helpful for related posts. Also, <a href="http://charliepark.org/tags-in-jekyll/">general sentiment</a> <a href="http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/">on the internet</a> is that Jekyll’s related posts are subpar.</p>
+
+<p>Most signs point to <a href="https://github.com/LawrenceWoodman/related_posts-jekyll_plugin">Lawrence Woodman’s library</a> for overwriting Jekyll’s existing related posts function and replacing it with a better one.</p>
+
+<p>While it’s not bad, I prefer using tags instead of categories. Thankfully I found <a href="http://davidlynch.org/blog/2011/10/jekyll/">David Lynch’s blog</a> and he had an improved version of Lawrence Woodman’s library to do exactly that.</p>
+
+<p>Add a file to the <code>_plugins</code> directory called <code>related_posts.rb</code> and paste in the code below. Thanks David!</p>
+
+<pre><code>
+require 'jekyll/post'
+
+module BetterRelatedPosts
+
+  # Used to remove #related_posts so that it can be overridden
+  def self.included(klass)
+    klass.class_eval do
+      remove_method :related_posts
+    end
+  end
+
+  # Calculate related posts.
+  #
+  # Returns [&lt;Post&gt;]
+  def related_posts(posts)
+    return [] unless posts.size &gt; 1
+    highest_freq = Jekyll::Post.tag_freq(posts).values.max
+    related_scores = Hash.new(0)
+    posts.each do |post|
+      post.tags.each do |tag|
+        if self.tags.include?(tag) &amp;&amp; post != self
+          cat_freq = Jekyll::Post.tag_freq(posts)[tag]
+          related_scores[post] += (1+highest_freq-cat_freq)
+        end
+      end
+    end
+
+    Jekyll::Post.sort_related_posts(related_scores)
+  end
+
+  module ClassMethods
+    # Calculate the frequency of each tag.
+    #
+    # Returns {tag =&gt; freq, tag =&gt; freq, ...}
+    def tag_freq(posts)
+      return @tag_freq if @tag_freq
+      @tag_freq = Hash.new(0)
+      posts.each do |post|
+        post.tags.each {|tag| @tag_freq[tag] += 1}
+      end
+      @tag_freq
+    end
+
+    # Sort the related posts in order of their score and date
+    # and return just the posts
+    def sort_related_posts(related_scores)
+      related_scores.sort do |a,b|
+        if a[1] &lt; b[1]
+          1
+        elsif a[1] &gt; b[1]
+          -1
+        else
+          b[0].date &lt;=&gt; a[0].date
+        end
+      end.collect {|post,freq| post}
+    end
+  end
+
+end
+
+module Jekyll
+  class Post
+    include BetterRelatedPosts
+    extend BetterRelatedPosts::ClassMethods
+  end
+end
+</code></pre>"/>
+    <meta name="description" content="<p>Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but certainly wasn’t as straight forward as I expected.</p>
+
+<p><a href="http://jekyllrb.com/docs/configuration/">Jekyll’s documentation</a> is pretty light and wasn’t really helpful for related posts. Also, <a href="http://charliepark.org/tags-in-jekyll/">general sentiment</a> <a href="http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/">on the internet</a> is that Jekyll’s related posts are subpar.</p>
+
+<p>Most signs point to <a href="https://github.com/LawrenceWoodman/related_posts-jekyll_plugin">Lawrence Woodman’s library</a> for overwriting Jekyll’s existing related posts function and replacing it with a better one.</p>
+
+<p>While it’s not bad, I prefer using tags instead of categories. Thankfully I found <a href="http://davidlynch.org/blog/2011/10/jekyll/">David Lynch’s blog</a> and he had an improved version of Lawrence Woodman’s library to do exactly that.</p>
+
+<p>Add a file to the <code>_plugins</code> directory called <code>related_posts.rb</code> and paste in the code below. Thanks David!</p>
+
+<pre><code>
+require 'jekyll/post'
+
+module BetterRelatedPosts
+
+  # Used to remove #related_posts so that it can be overridden
+  def self.included(klass)
+    klass.class_eval do
+      remove_method :related_posts
+    end
+  end
+
+  # Calculate related posts.
+  #
+  # Returns [&lt;Post&gt;]
+  def related_posts(posts)
+    return [] unless posts.size &gt; 1
+    highest_freq = Jekyll::Post.tag_freq(posts).values.max
+    related_scores = Hash.new(0)
+    posts.each do |post|
+      post.tags.each do |tag|
+        if self.tags.include?(tag) &amp;&amp; post != self
+          cat_freq = Jekyll::Post.tag_freq(posts)[tag]
+          related_scores[post] += (1+highest_freq-cat_freq)
+        end
+      end
+    end
+
+    Jekyll::Post.sort_related_posts(related_scores)
+  end
+
+  module ClassMethods
+    # Calculate the frequency of each tag.
+    #
+    # Returns {tag =&gt; freq, tag =&gt; freq, ...}
+    def tag_freq(posts)
+      return @tag_freq if @tag_freq
+      @tag_freq = Hash.new(0)
+      posts.each do |post|
+        post.tags.each {|tag| @tag_freq[tag] += 1}
+      end
+      @tag_freq
+    end
+
+    # Sort the related posts in order of their score and date
+    # and return just the posts
+    def sort_related_posts(related_scores)
+      related_scores.sort do |a,b|
+        if a[1] &lt; b[1]
+          1
+        elsif a[1] &gt; b[1]
+          -1
+        else
+          b[0].date &lt;=&gt; a[0].date
+        end
+      end.collect {|post,freq| post}
+    end
+  end
+
+end
+
+module Jekyll
+  class Post
+    include BetterRelatedPosts
+    extend BetterRelatedPosts::ClassMethods
+  end
+end
+</code></pre>"/>
+     -->
+    <meta property="og:site_name" content="Chris Yin">
+    <!--Sumome Plugin -->
+    <script src="//load.sumome.com/" data-sumo-site-id="9ab9472d0d4be1e3018f7e4143e4d815f5d3b7d5bce0b041f56a425c97d35b29" async></script> 
+</head>
+<body>
+     
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <!--<a class="brand" href="/">
+                <img src="/images/CircleYin.png" alt="Inc">
+            </a>-->
+            <a href="/" class="">Home</a>
+            <a href="/about" class="">About</a>
+            <a href="/quotes" class="">Quotes</a>
+        </nav>
+        
+    </header>
+</section>
+
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                <time pubdate datetime="2014-23-August" title="August 23, 2014">August 23, 2014</time>
+            </div>
+            <h1 class="title">Jekyll Related Posts</h1>
+            <!---->
+        </header>
+
+        <section>
+          <p>Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but certainly wasn’t as straight forward as I expected.</p>
+
+<p><a href="http://jekyllrb.com/docs/configuration/">Jekyll’s documentation</a> is pretty light and wasn’t really helpful for related posts. Also, <a href="http://charliepark.org/tags-in-jekyll/">general sentiment</a> <a href="http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/">on the internet</a> is that Jekyll’s related posts are subpar.</p>
+
+<p>Most signs point to <a href="https://github.com/LawrenceWoodman/related_posts-jekyll_plugin">Lawrence Woodman’s library</a> for overwriting Jekyll’s existing related posts function and replacing it with a better one.</p>
+
+<p>While it’s not bad, I prefer using tags instead of categories. Thankfully I found <a href="http://davidlynch.org/blog/2011/10/jekyll/">David Lynch’s blog</a> and he had an improved version of Lawrence Woodman’s library to do exactly that.</p>
+
+<p>Add a file to the <code>_plugins</code> directory called <code>related_posts.rb</code> and paste in the code below. Thanks David!</p>
+
+<pre><code>
+require 'jekyll/post'
+
+module BetterRelatedPosts
+
+  # Used to remove #related_posts so that it can be overridden
+  def self.included(klass)
+    klass.class_eval do
+      remove_method :related_posts
+    end
+  end
+
+  # Calculate related posts.
+  #
+  # Returns [&lt;Post&gt;]
+  def related_posts(posts)
+    return [] unless posts.size &gt; 1
+    highest_freq = Jekyll::Post.tag_freq(posts).values.max
+    related_scores = Hash.new(0)
+    posts.each do |post|
+      post.tags.each do |tag|
+        if self.tags.include?(tag) &amp;&amp; post != self
+          cat_freq = Jekyll::Post.tag_freq(posts)[tag]
+          related_scores[post] += (1+highest_freq-cat_freq)
+        end
+      end
+    end
+
+    Jekyll::Post.sort_related_posts(related_scores)
+  end
+
+  module ClassMethods
+    # Calculate the frequency of each tag.
+    #
+    # Returns {tag =&gt; freq, tag =&gt; freq, ...}
+    def tag_freq(posts)
+      return @tag_freq if @tag_freq
+      @tag_freq = Hash.new(0)
+      posts.each do |post|
+        post.tags.each {|tag| @tag_freq[tag] += 1}
+      end
+      @tag_freq
+    end
+
+    # Sort the related posts in order of their score and date
+    # and return just the posts
+    def sort_related_posts(related_scores)
+      related_scores.sort do |a,b|
+        if a[1] &lt; b[1]
+          1
+        elsif a[1] &gt; b[1]
+          -1
+        else
+          b[0].date &lt;=&gt; a[0].date
+        end
+      end.collect {|post,freq| post}
+    end
+  end
+
+end
+
+module Jekyll
+  class Post
+    include BetterRelatedPosts
+    extend BetterRelatedPosts::ClassMethods
+  end
+end
+</code></pre>
+          
+<div class="social">
+    <div>
+        <a href="https://twitter.com/share" class="twitter-share-button"  data-text="Jekyll Related Posts" data-related="chriseyin">Tweet</a>
+    </div>
+    
+    
+    <div>
+        <div class="fb-like" data-width="150" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false" vertical-align:none></div>
+    </div>
+    
+    
+    <div>
+        <div class="g-plusone" data-size="medium"></div>
+    </div>
+    
+    
+    
+</div>
+
+          <hr>
+            <h2 class="widget-title">You Might Also Like</h2>
+              <ul>
+                
+                  <li><a href="/2014/03/30/hosting-a-static-site-on-s3/">Hosting a Static Site on S3</a></li>
+                
+                  <li><a href="/2014/03/15/subl/">subl</a></li>
+                
+              </ul>
+        </section>
+        
+          <section>
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'chrisyin'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+          </section>
+        
+    </div>
+</article>
+
+<footer class="site-footer">
+    <div class="container">
+        <nav>
+            &copy; 2014
+            <a href="http://chrisyin.com/">Chris Yin</a> &middot;
+            <a href="/about">About</a> &middot;
+            <a href="/quotes">Quotes</a>
+        </nav>
+        <!--
+        <nav class="social">
+            
+            <a href="https://twitter.com/chriseyin" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>-->
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=253595308025739";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35234352-1', 'http://www.chrisyin.com');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

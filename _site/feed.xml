@@ -6,9 +6,97 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 24 Aug 2014 03:59:30 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Aug 2014 03:59:30 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Aug 2014 04:19:09 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Aug 2014 04:19:09 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>Jekyll Related Posts</title>
+      <link>http://www.chrisyin.com/2014/08/23/jekyll-related-posts/</link>
+      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/08/23/jekyll-related-posts</guid>
+      <description>&lt;p&gt;Spent some time this weekend trying to implement ‘Related Posts’ onto my blog. Wasn’t hard, but certainly wasn’t as straight forward as I expected.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; is pretty light and wasn’t really helpful for related posts. Also, &lt;a href=&quot;http://charliepark.org/tags-in-jekyll/&quot;&gt;general sentiment&lt;/a&gt; &lt;a href=&quot;http://techtinkering.com/2011/08/17/improving-related-posts-on-jekyll/&quot;&gt;on the internet&lt;/a&gt; is that Jekyll’s related posts are subpar.&lt;/p&gt;
+
+&lt;p&gt;Most signs point to &lt;a href=&quot;https://github.com/LawrenceWoodman/related_posts-jekyll_plugin&quot;&gt;Lawrence Woodman’s library&lt;/a&gt; for overwriting Jekyll’s existing related posts function and replacing it with a better one.&lt;/p&gt;
+
+&lt;p&gt;While it’s not bad, I prefer using tags instead of categories. Thankfully I found &lt;a href=&quot;http://davidlynch.org/blog/2011/10/jekyll/&quot;&gt;David Lynch’s blog&lt;/a&gt; and he had an improved version of Lawrence Woodman’s library to do exactly that.&lt;/p&gt;
+
+&lt;p&gt;Add a file to the &lt;code&gt;_plugins&lt;/code&gt; directory called &lt;code&gt;related_posts.rb&lt;/code&gt; and paste in the code below. Thanks David!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+require 'jekyll/post'
+
+module BetterRelatedPosts
+
+  # Used to remove #related_posts so that it can be overridden
+  def self.included(klass)
+    klass.class_eval do
+      remove_method :related_posts
+    end
+  end
+
+  # Calculate related posts.
+  #
+  # Returns [&amp;lt;Post&amp;gt;]
+  def related_posts(posts)
+    return [] unless posts.size &amp;gt; 1
+    highest_freq = Jekyll::Post.tag_freq(posts).values.max
+    related_scores = Hash.new(0)
+    posts.each do |post|
+      post.tags.each do |tag|
+        if self.tags.include?(tag) &amp;amp;&amp;amp; post != self
+          cat_freq = Jekyll::Post.tag_freq(posts)[tag]
+          related_scores[post] += (1+highest_freq-cat_freq)
+        end
+      end
+    end
+
+    Jekyll::Post.sort_related_posts(related_scores)
+  end
+
+  module ClassMethods
+    # Calculate the frequency of each tag.
+    #
+    # Returns {tag =&amp;gt; freq, tag =&amp;gt; freq, ...}
+    def tag_freq(posts)
+      return @tag_freq if @tag_freq
+      @tag_freq = Hash.new(0)
+      posts.each do |post|
+        post.tags.each {|tag| @tag_freq[tag] += 1}
+      end
+      @tag_freq
+    end
+
+    # Sort the related posts in order of their score and date
+    # and return just the posts
+    def sort_related_posts(related_scores)
+      related_scores.sort do |a,b|
+        if a[1] &amp;lt; b[1]
+          1
+        elsif a[1] &amp;gt; b[1]
+          -1
+        else
+          b[0].date &amp;lt;=&amp;gt; a[0].date
+        end
+      end.collect {|post,freq| post}
+    end
+  end
+
+end
+
+module Jekyll
+  class Post
+    include BetterRelatedPosts
+    extend BetterRelatedPosts::ClassMethods
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
     
     
     <item>
