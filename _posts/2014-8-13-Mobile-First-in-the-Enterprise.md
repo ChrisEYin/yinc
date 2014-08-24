@@ -1,6 +1,10 @@
 ---
 title: Mobile First in the Enterprise
 layout: post
+tags:
+- mobile
+- enterprise
+- startup
 ---
 
 ![star-trek-phone](/images/star-trek-phone.jpg)

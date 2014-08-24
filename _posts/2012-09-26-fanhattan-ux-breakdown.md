@@ -1,6 +1,11 @@
 ---
 title: Fanhattan UX Breakdown
 layout: post
+tags: 
+- design
+- consumer
+- product
+- review
 ---
 
 So, my first time doing one of these things, but I love Fanhattan and wanted to throw my opinion in. So here goes.

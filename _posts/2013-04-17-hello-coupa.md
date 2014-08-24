@@ -1,6 +1,9 @@
 ---
 title: Hello Coupa!
 layout: post
+tags: 
+- startup
+- career
 ---
 
 We've just been acquired by Coupa. You can [read about it here](http://bit.ly/XQq6aK).

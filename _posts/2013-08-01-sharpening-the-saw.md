@@ -2,6 +2,10 @@
 title: To Improve Your Work, Stop Working
 subtitle: Create a virtuous cycle of balance, career improvement, and personal satisfaction.
 layout: post
+tags:
+- life
+- selfimprovement
+- personal
 ---
 
 Over the last few months I've been in a depression. 

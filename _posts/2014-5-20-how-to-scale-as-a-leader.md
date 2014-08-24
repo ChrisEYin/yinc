@@ -1,6 +1,13 @@
 ---
 title: How To Scale With Your Startup
 layout: post
+tags:
+- selfimprovement
+- career
+- growth
+- startup
+- leadership
+- management
 ---
 
 As a startup guy (most recently of Xpenser, a 3 person startup), I have the habit of trying to do everything. Figure out the long term, short term, and get to work -- regardless of the type of task. It's a lot of fun -- constantly figuring it out, learning new things, and getting stuff done.

@@ -1,6 +1,8 @@
 ---
 title: Hosting a Static Site on S3
 layout: post
+tags:
+- code
 ---
 
 I've had this setup with [my personal site](http://www.chrisyin.com) for some time now, but I recently had to setup another static site and I had to look through my old setup and Google around a bit and try to figure out how to do it again. Figured I would write it down this time.

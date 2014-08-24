@@ -1,6 +1,9 @@
 ---
 title: 51 Ways to Become World Class
 layout: post
+tags:
+- selfimprovement
+- life
 ---
 
 Stumbled across this a few days ago. Really good stuff, so wanted to re-post it.

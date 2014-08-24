@@ -1,6 +1,11 @@
 ---
 title: Unvalidated Assumptions
 layout: post
+tags:
+- startup
+- 0to1
+- validation
+- mvp
 ---
 
 I find myself explaining this more and more often as friends of mine talk about ideas that they are considering/pursuing.

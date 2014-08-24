@@ -2,6 +2,10 @@
 title: Leadership
 subtitle: 3 things about it.
 layout: post
+tags:
+- leadership
+- teams
+- management
 ---
 
 What is it?

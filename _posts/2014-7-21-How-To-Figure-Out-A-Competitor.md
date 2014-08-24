@@ -1,6 +1,11 @@
 ---
 title: How To Figure Out A Competitor's Strategy
 layout: post
+tags:
+- startup
+- competitor
+- strategy
+- tips
 ---
 
 When evaluating any opportunity/company/etc, you should always do a competitive analysis. A competitive analysis is an overview of the landscape – what’s the space, who are the players, their strategy, and how are they’re doing. 

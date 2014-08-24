@@ -1,6 +1,10 @@
 ---
 title: Living Hard Drive Free
 layout: post
+tags:
+- life
+- personal
+- product
 ---
 
 After switching machines every 2 months for the better part of a year, I finally bought a permanent laptop. However, after constantly changing machines, this whole experience has made it very difficult for me to keep track of my desktop files — I have folders, files, things downloaded from the web (books/docs/music/films) — and then when I’m forced to a new machine, I have to consolidate all of my desktop files onto a flash/hard drive, and then put it on my new machine.

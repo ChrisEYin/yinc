@@ -2,6 +2,10 @@
 title: Freemium Doesn't Always Work in B2B
 subtitle: How to pick the right problems to solve in enterprise.
 layout: post
+tags:
+- startup
+- enterprise
+- pricing
 ---
 *This is a follow up post to [Building for the Enterprise](http://bit.ly/1hxzntZ).*
 

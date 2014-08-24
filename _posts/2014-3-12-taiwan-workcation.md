@@ -1,6 +1,9 @@
 ---
 title: Taiwan Workcation
 layout: post
+tags:
+- personal
+- taiwan
 ---
 
 I just got back from a 2.5 week workcation. I wanted to get out of town & get some new ideas, inspiration, and soak in some culture from outside of the US. Since I have family in Taiwan, it seemed like a pretty easy & low risk choice.

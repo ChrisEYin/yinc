@@ -2,6 +2,12 @@
 title: Nest Thermostat Review
 subtitle: Beautiful product, but not ready for the mainstream consumer market. 
 layout: post
+tags:
+- consumer
+- product
+- design
+- iot
+- review
 ---
 
 I bought my folks a Nest over break. The question I hear a lot is -- is it worth the ~$300? 

@@ -1,6 +1,10 @@
 ---
 title: Why Anonymity Still Sucks
 layout: post
+tags:
+- anonymity
+- review
+- startup
 ---
 
 There’s been [a lot of talk](http://techcrunch.com/2014/03/23/secret-cyberbullying/) [recently](http://www.bustle.com/articles/34337-bullying-is-a-problem-for-all-of-us-and-the-app-secret-needs-to-do-something) about anonymity. Some, [like Pando](http://pando.com/2014/08/03/now-weve-seen-secrets-ugly-soul-will-investors-act/), are claiming that anonymity is horrific and companies like Secret are not only morally bankrupt, but also enabling online bullying. While that position feels a bit strong to me, I do think there is some truth to what is being said.

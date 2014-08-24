@@ -1,6 +1,9 @@
 ---
 title: Goodbye Google Reader
 layout: post
+tags:
+- consumer
+- reading
 ---
 
 After closing the last work related tab on my browser the other day, I fired up Google Reader to catch up on some news and browse through the latest posts. Ironically, the first thing I saw was this: [Google Kills Google Reader](http://gigaom.com/2013/03/13/google-kills-google-reader-will-go-offline-on-july-1-2013/).

@@ -1,6 +1,10 @@
 ---
 title: Why Consumers Won't Pay for Apps
 layout: post
+tags:
+- productivity
+- consumer
+- pricing
 ---
 
 People don't like paying for software. Despite being incredibly cheap relative to how much value it provides, most people still gawk at the idea of paying for a $.99 app (or any software). Why? 

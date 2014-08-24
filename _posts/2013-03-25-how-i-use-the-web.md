@@ -1,6 +1,10 @@
 ---
 title: How I Use The Web
 layout: post
+tags:
+- personal
+- life
+- consumer
 ---
 
 Recently people have been asking how I use the web. Not sure why, but thought I’d write it down.

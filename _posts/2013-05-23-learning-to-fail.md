@@ -2,6 +2,11 @@
 title: Are You Learning to Fail or Failing to Learn?
 subtitle: Exploring the ramifications of failing fast and early.
 layout: post
+tags:
+- startup
+- life
+- failure
+- selfimprovement
 ---
 
 Failure. It’s a daunting thing. People like to talk about celebrating failure. They champion it like it’s something to do.  

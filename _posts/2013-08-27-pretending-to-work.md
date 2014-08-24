@@ -2,6 +2,9 @@
 title: Working Hard &amp; Not Getting Anything Done
 subtitle: When you are hunting elephants, don't get distracted chasing rabbits. 
 layout: post
+tags:
+- productivity
+- selfimprovement
 ---
 
 >When you are hunting elephants, don't get distracted chasing rabbits. 

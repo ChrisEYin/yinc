@@ -2,6 +2,9 @@
 title: Expensive Headphone Review
 subtitle: false
 layout: post
+tags:
+- personal
+- headphones
 ---
 
 Recently got some higher end headphones as a gift. While they were awesome, I wanted to make sure I was getting my money's worth, so I looked around. Here's what I found.

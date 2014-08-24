@@ -1,6 +1,12 @@
 ---
 title: Experiment&#58; Movie Annotation
 layout: post
+tags: 
+- movie
+- consumer
+- startup
+- experiment
+- personal
 ---
 
 Over the last year, have been working on a small side project to help people understand movies/tv shows better. A lot of times after I watch something, I'll lurk on Wikipedia/IMDB/Reddit etc to find answers to any outstanding questions. Sometimes just I'll casually float around the web to revisit some of the scenes, discover any subtleties I may have missed, or just talk about how awesome/shitty something was. Some notable times I've done this -- after [Inception](http://www.imdb.com/title/tt1375666/faq), [Prometheus](http://www.prometheus2-movie.com/community/forums/42), and after every [Breaking Bad](http://www.reddit.com/r/breakingbad) episode in the second half of Season 5. 

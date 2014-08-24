@@ -2,6 +2,9 @@
 title: Good Teams Succeed. Great Teams Fail.
 subtitle: How to create an effective, long term team.
 layout: post
+tags:
+- teams
+- management
 ---
 
 Ever since I started at my new job, I've been waiting for one thing -- to fail. 

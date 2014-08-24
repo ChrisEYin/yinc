@@ -1,6 +1,10 @@
 ---
 title: 10 Commandments For Every Product Manager
 layout: post
+tags: 
+- product
+- career
+- pm
 ---
 
 ![dilbert-pm](/images/dilbert-pm.png)

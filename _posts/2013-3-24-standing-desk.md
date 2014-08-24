@@ -2,6 +2,10 @@
 title: Standing Desk
 subtitle: false
 layout: post
+tags:
+- selfimprovement
+- personal
+- health
 ---
 
 Setup the standing desk yesterday. Pretty cool, cost $35 and took ~30 min to build. Really easy.

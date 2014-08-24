@@ -2,6 +2,10 @@
 title: The Only Thing You Need to Succeed &amp; Be Happy
 subtitle: The silver bullet to moving forward in your career with confidence.
 layout: post
+tags:
+- life
+- startup
+- selfimprovement
 ---
 
 Lately, I’ve been driving up to LA more often (I’m in San Diego). I hate the drive, so I usually throw a [PandoMonthly](http://bit.ly/10cuVtN "PandoMonthly") talk into my car to help pass time. They’re all spectacular, but one that continues to stick out is the [Ben Horowitz chat](http://bit.ly/15q6s8T "Fireside Chat with Ben Horowitz"). The whole thing is awesome — but one quote in particular resonated with me.

@@ -1,6 +1,11 @@
 ---
 title: Hot Teams
 layout: post
+tags:
+- teams
+- management
+- startup
+- leadership
 ---
 
 I was watching [PandoMonthly's Mike Maples](https://www.youtube.com/watch?v=9JOibQNHyF0) interview the other day, and he mentioned a concept called ‘Hot Teams’. 

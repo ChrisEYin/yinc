@@ -1,6 +1,11 @@
 ---
 title: Scheduling Apps
 layout: post
+tags:
+- product
+- review
+- calendar
+- productivity
 ---
 
 Recently I’ve been seeing more and more ‘personal assistant' scheduling products coming out, touting the ability to relieve you of wasted time scheduling meetings.

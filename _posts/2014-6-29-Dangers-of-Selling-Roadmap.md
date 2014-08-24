@@ -1,6 +1,11 @@
 ---
 title: The Dangers of Selling Roadmap
 layout: post
+tags:
+- enterprise
+- startup
+- sales
+- pm
 ---
 
 Saw this on Twitter a few weeks ago --

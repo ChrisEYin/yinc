@@ -1,6 +1,12 @@
 ---
 title: Let's Stop Saying B2B
 layout: post
+tags:
+- enterprise
+- pricing
+- strategy
+- sales
+- product
 ---
 
 Recently I've been seeing more people using the word B2B incorrectly. Mostly falsely conflating B2B, SMB and Enterprise (esp in the startup world). They are vastly different, so here's my attempt to clear it up.

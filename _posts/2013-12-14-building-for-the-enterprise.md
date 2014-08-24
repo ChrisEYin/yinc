@@ -2,6 +2,9 @@
 title: Building for the Enterprise
 subtitle: Learnings from Xpenser and Coupa
 layout: post
+tags:
+- startup
+- enterprise
 ---
 
 A little over a year ago, I joined [Xpenser](http://tcrn.ch/18MuCue) -- a startup building expense management tools for businesses and individuals. We were 4 years old, bootstrapped, small (3 full time + interns), ~85K users and ~150 paying customers.  

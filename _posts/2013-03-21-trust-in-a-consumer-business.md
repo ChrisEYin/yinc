@@ -1,6 +1,10 @@
 ---
 title: Trust in a Consumer Business
 layout: post
+tags:
+- consumer
+- reading
+- startup
 ---
 
 I found myself trying out a few of [Evernote’s other apps](http://on.mash.to/Xt809o) today ([Clearly](http://evernote.com/clearly/) is amazing btw). Despite zero initial interest, necessity, coupled with bad reviews, I still managed to say eh, screw it — and download a few. I figured — it’s Evernote, they usually do cool stuff. I’ll give them a shot.
