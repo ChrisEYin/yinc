@@ -21,7 +21,30 @@ layout: base
 
         <section>
           {{ content }}
-          {% if page.url != '/about/' %}
+          <!-- adding popular posts and removing social for about -->
+          {% if page.url == '/about/' %}
+            <hr>
+              <h2 class="widget-title">Some Popular Posts</h2>
+                <ul>
+                    <li><a href="/2013/08/27/pretending-to-work/">Working Hard And Not Getting Anything Done</a></li>
+                    <li><a href="/2013/08/01/sharpening-the-saw/">To Improve Your Work, Stop Working</a></li>
+                    <li><a href="/2014/08/15/adi/">Invest In People, Not Ideas</a></li>
+                    <li><a href="/2014/07/26/Hot-Teams/">Hot Teams</a></li>
+                    <li><a href="/2014/05/05/consumer-productivity-apps/">Why Consumers Won't Pay for Apps</a></li>
+                    <li><a href="/2014/07/09/lets-stop-saying-b2b/">Let's Stop Saying B2B</a></li>
+                </ul>
+          {% elsif page.url == '/quotes/' %}
+            <hr>
+              <h2 class="widget-title">Some Popular Posts</h2>
+                <ul>
+                    <li><a href="/2013/08/27/pretending-to-work/">Working Hard And Not Getting Anything Done</a></li>
+                    <li><a href="/2013/08/01/sharpening-the-saw/">To Improve Your Work, Stop Working</a></li>
+                    <li><a href="/2014/08/15/adi/">Invest In People, Not Ideas</a></li>
+                    <li><a href="/2014/07/26/Hot-Teams/">Hot Teams</a></li>
+                    <li><a href="/2014/05/05/consumer-productivity-apps/">Why Consumers Won't Pay for Apps</a></li>
+                    <li><a href="/2014/07/09/lets-stop-saying-b2b/">Let's Stop Saying B2B</a></li>
+                </ul>
+          {% else %}
             {% include _social.html %}
             <hr>
               <h2 class="widget-title">You Might Also Like</h2>
@@ -35,18 +58,6 @@ layout: base
                 {% include _disqus.html %}
               </section>
             {% endif %}
-          {% endif %}
-          {% if page.url == '/about/' %}
-            <hr>
-              <h2 class="widget-title">Some Popular Posts</h2>
-                <ul>
-                    <li><a href="/2013/08/27/pretending-to-work/">Working Hard And Not Getting Anything Done</a></li>
-                    <li><a href="/2013/08/01/sharpening-the-saw/">To Improve Your Work, Stop Working</a></li>
-                    <li><a href="/2014/08/15/adi/">Invest In People, Not Ideas</a></li>
-                    <li><a href="/2014/07/26/Hot-Teams/">Hot Teams</a></li>
-                    <li><a href="/2014/05/05/consumer-productivity-apps/">Why Consumers Won't Pay for Apps</a></li>
-                    <li><a href="/2014/07/09/lets-stop-saying-b2b/">Let's Stop Saying B2B</a></li>
-                </ul>
           {% endif %}
         </section>
     </div>
