@@ -22,6 +22,13 @@ layout: base
         <section>
           {{ content }}
           {% include _social.html %}
+          <hr>
+            <h2 class="widget-title">You Might Also Like</h2>
+              <ul>
+                {% for rel in site.related_posts limit:3 %}
+                  <li><a href="{{ rel.url }}">{{ rel.title }}</a></li>
+                {% endfor %}
+              </ul>
         </section>
         {% if site.inc.disqus.shortname %}
           <section>
