@@ -30,6 +30,11 @@ layout: base
                     <li><a href="{{ rel.url }}">{{ rel.title }}</a></li>
                   {% endfor %}
                 </ul>
+            {% if site.inc.disqus.shortname %}
+              <section>
+                {% include _disqus.html %}
+              </section>
+            {% endif %}
           {% endif %}
           {% if page.url == '/about/' %}
             <hr>
@@ -44,10 +49,5 @@ layout: base
                 </ul>
           {% endif %}
         </section>
-        {% if site.inc.disqus.shortname %}
-          <section>
-            {% include _disqus.html %}
-          </section>
-        {% endif %}
     </div>
 </article>
