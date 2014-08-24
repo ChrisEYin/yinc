@@ -10,10 +10,16 @@ article {
     .social {
         height:40px;
         padding:10px 0;
+        vertical-align:none !important;
         
         > div {
             display:inline-block;
-            min-width:120px;
+            min-width:100px;
+        }
+
+        .fb-like{
+            position:relative;
+            vertical-align:none !important;
         }
     }
 
