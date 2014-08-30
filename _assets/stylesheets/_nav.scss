@@ -92,3 +92,49 @@ body.nav-hidden {
     }
 }
 
+@mixin inline-block {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+}
+
+.pagination {
+  height: 20px; 
+  top: 62px;
+  .page-nav {
+    font-size: 0;
+    /* @include inline-block; */
+    display: block;
+    height: 0;
+    border: 8px solid transparent;
+  }
+  .previous { float: left; margin-left: -25px; border-right: 10px solid #ddd; border-left-width: 0; }
+  .next { float: right; margin-right: -25px; border-left: 10px solid #ddd; border-right-width: 0; }
+}
+
+.post-pagination{
+  position: relative;
+  width: 100%;
+  .page-nav {
+    font-size: 0;
+    /* @include inline-block; */
+    display: block;
+    height: 0;
+    border: 8px solid transparent;
+  }
+  a:hover { 
+    background-color: transparent; 
+  }
+  .previous { float: left; margin-left: -25px; border-right: 10px solid #ddd; border-left-width: 0; margin-top: 10px;
+    &:hover {
+      border-right: 10px solid #111
+    }
+  }
+  .next { float: right; margin-right: -25px; border-left: 10px solid #ddd; border-right-width: 0; margin-top: 10px;
+    &:hover {
+      border-left: 10px solid #111
+    }
+  }
+}
