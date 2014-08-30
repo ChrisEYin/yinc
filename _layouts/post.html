@@ -15,7 +15,6 @@ layout: base
             <div class="meta">
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </div>
-            <h1 class="title">{{ page.title }}</h1>
             <!--{% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}-->  
             <div class = "post-pagination">
               {% if page.previous %}
@@ -28,6 +27,7 @@ layout: base
                   &gt;
                 </a>
               {% endif %}
+              <h1 class="title">{{ page.title }}</h1>
         </header>
         <section>
           {{ content }}
