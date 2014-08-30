@@ -83,3 +83,22 @@ module Jekyll
   end
 end
 ```
+
+You can use tags in your front matter, ie
+
+```
+---
+title: Jekyll Related Posts
+layout: post
+tags:
+ - jekyll
+---
+```
+
+And use this in one of your layouts file
+
+```
+{% for rel in site.related_posts limit:5 %}
+  <li><a href="{{ rel.url }}">{{ rel.title }}</a></li>
+{% endfor %}
+```

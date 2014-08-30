@@ -6,8 +6,8 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sun, 24 Aug 2014 21:39:42 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Aug 2014 21:39:42 +0000</lastBuildDate>
+    <pubDate>Sat, 30 Aug 2014 00:17:23 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Aug 2014 00:17:23 +0000</lastBuildDate>
 
     
     
@@ -94,6 +94,27 @@ module Jekyll
     extend BetterRelatedPosts::ClassMethods
   end
 end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can use tags in your front matter, ie&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+---
+title: Jekyll Related Posts
+layout: post
+tags:
+ - jekyll
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And use this in one of your layouts file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/2014/03/30/hosting-a-static-site-on-s3/&amp;quot;&amp;gt;Hosting a Static Site on S3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/2014/03/15/subl/&amp;quot;&amp;gt;subl&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
