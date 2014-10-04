@@ -69,8 +69,6 @@ Under the domain info and next to 'Settings', select 'DNS Zone File' and then cl
 
 Then click back into the main setting and then for forwarding, set your forwarding to *wwww.domain.com*. Done!
 
---
-
 Now both *domain.com* & *wwww.domain.com* should work for your site.
 
 

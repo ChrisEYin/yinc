@@ -23,6 +23,8 @@ A hot team is a group that is defined by the following characteristics:
 
 The net of this is this to form a team that fits [Peter Thiel's High Alignment / High Trust](http://25iq.com/2014/07/13/a-dozen-things-ive-learned-from-peter-thiel/) matrix. 
 
-![img](/images/hotteamsmatrix.png)
+<p align="center">
+  <img src="/images/hotteamsmatrix.png" />
+</p>
 
 So for those of us that manage teams (especially in a startup), we need remember to always to live by the principles above to win.

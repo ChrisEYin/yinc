@@ -3,7 +3,6 @@ title: How I Use The Web
 layout: post
 tags:
 - personal
-- life
 - consumer
 ---
 

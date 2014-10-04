@@ -55,9 +55,9 @@ layout: base
                     <li><a href="/2014/07/09/lets-stop-saying-b2b/">Let's Stop Saying B2B</a></li>
                 </ul>
           {% else %}
-            {% include _social.html %}
+            <!-- {% include _social.html %} -->
             <hr>
-              <h2 class="widget-title">You Might Also Like</h2>
+              <h2 style="font-size:1.2em">You Might Also Like</h2>
                 <ul>
                   {% for rel in site.related_posts limit:5 %}
                     <li><a href="{{ rel.url }}">{{ rel.title }}</a></li>

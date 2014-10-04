@@ -11,10 +11,6 @@ _posts/
 images/
 ```
 
-All other directories and files are MIT Licensed.
-
-
-
 --
 
 Based on theme by [Kippt](blog.sendtoinc.com).

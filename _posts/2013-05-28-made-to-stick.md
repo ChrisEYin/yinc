@@ -58,7 +58,9 @@ You have to be credible. Reference experts (Dr. Yin says don't smoke), aspiratio
 
 **Emotional**
 
-![Maslow](http://bit.ly/13Xah2e)
+<p align="center">
+  <img src="http://bit.ly/13Xah2e" />
+</p>
 
 Maslow's hierarchy. The lower end is physical needs. The higher end is emotional needs. Take your idea from something serving the lower end of Maslow's hierarchy and aim higher. The stronger the emotion, the stronger the purpose.  
 

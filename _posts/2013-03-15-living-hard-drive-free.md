@@ -2,7 +2,6 @@
 title: Living Hard Drive Free
 layout: post
 tags:
-- life
 - personal
 - product
 ---

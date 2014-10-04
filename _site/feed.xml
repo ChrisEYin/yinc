@@ -6,9 +6,261 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sat, 30 Aug 2014 23:02:38 +0000</pubDate>
-    <lastBuildDate>Sat, 30 Aug 2014 23:02:38 +0000</lastBuildDate>
+    <pubDate>Sat, 04 Oct 2014 21:35:01 +0000</pubDate>
+    <lastBuildDate>Sat, 04 Oct 2014 21:35:01 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>Collaboration 3.0</title>
+      <link>http://www.chrisyin.com/2014/10/01/collaboration/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/10/01/collaboration</guid>
+      <description>&lt;p&gt;I recently took part in an online panel on collaboration, organized by &lt;a href=&quot;https://twitter.com/alexschiff&quot;&gt;Alex Schiff&lt;/a&gt;, founder of &lt;a href=&quot;http://www.fetchnotes.com/&quot;&gt;Fetchnotes&lt;/a&gt;. Was a fun experience, getting out my own thoughts and hearing from people in other companies like Asana, Yammer, Quip, Wunderlist, Any.do, Do, etc say on the topic. Full post is below, just click on the image.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@alexschiff/7010281f1426&quot;&gt;&lt;img src=&quot;/images/collaboration.png&quot; alt=&quot;collaboration&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My original response was too long for the panel, so thought I’d paste it here. Some of the points &lt;a href=&quot;http://www.chrisyin.com/2014/08/13/Mobile-First-in-the-Enterprise/&quot;&gt;I’ve brought up before&lt;/a&gt; in &lt;a href=&quot;http://www.chrisyin.com/2014/09/10/internet-of-things/&quot;&gt;different posts&lt;/a&gt;, but here it is in its entirety.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;When I think about collaboration tools, there are 3 things that really come to mind - mobile, distributed working, and the internet of things.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mobile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When talking about short term trends in collaboration, mobile is top of mind. It’s not so much an upcoming trend, but something that is already happening. I recently wrote a post, &lt;a href=&quot;http://www.chrisyin.com/2014/08/13/Mobile-First-in-the-Enterprise/&quot;&gt;Mobile First in the Enterprise&lt;/a&gt;, that talks about this. As traditional desktop software went online, we got a taste of working outside of the office. Now with mobile, we’re pushing that even further and we’re demanding high quality tools so we can do our jobs anywhere &amp;amp; anytime.&lt;/p&gt;
+
+&lt;p&gt;Mobile is a unique form factor in that screen real estate is small, there are built in sensors not available via a browser, and simplicity/single function are dominant. Collaboration reimagined from a mobile first perspective will yield very different tools and experiences than we’re familiar with. Prescient companies are taking this very seriously, and a quick look at popular collaboration tools all treat high quality stand alone mobile apps as a base requirement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Distributed Working&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A related point is distributed working. As mentioned above, modern tools allow us to do quality work outside of the office. We’re pushing this further than we have before with distributed or remote working. As commonly said, there is more talent outside of your locale than in it. And although companies have been adopting this mentality, the tools for distributed working still feel second rate. Lots of these tools help remote teams contribute and communicate, but they feel like individualized solutions under a bigger problem.&lt;/p&gt;
+
+&lt;p&gt;Better ways of sharing knowledge, documents, code, etc are certainly important, but another aspect that has been largely ignored is the culture and team building around remote workers. The available tools don’t facilitate and capture the same effect as in person work - the camaraderie, teamwork, excitement, visibility, and other culture building things. These are still largely solved from in person visits and spending time with each other. I’m looking forward to tools and solutions that are built for distributed teams first, and not tools to just help remote teams better contribute to those working in person.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connected Devices&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The last trend that I think is really important is the Internet of Things. I’m a bit a averse to that phrase as it’s been a bit overused, but I am genuinely excited for the notion of ‘devices talking to devices’. While software has greatly improved in general, what has not dramatically improved is how we interact with software - input has and continues to be manual. We still have to manually type details into Salesforce, type your receipts into a system to create expense reports, etc.&lt;/p&gt;
+
+&lt;p&gt;With the advent of smartphones coupled with the declining cost of sensors, we’re getting a taste of what life is like with sensors embedded everywhere, capturing and inputting data in for us. A small example of this is something I noticed in Taiwan - inbound buses auto send notifications about arrival time to those in the proximity of the bus stop. That’s a small example of what can be done when devices talk to other devices, and if we think about this and apply it in a workplace setting, amazing solutions can then be created – ie auto logging details of a call into Salesforce, context sensitive time tracking tools, automatically creating/prioritizing/closing tasks on a todo list, and lots of other things that I haven’t even thought of.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How To Hire For Startup</title>
+      <link>http://www.chrisyin.com/2014/09/27/how-to-hire-for-startup/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/27/how-to-hire-for-startup</guid>
+      <description>&lt;p&gt;Hiring at startups is hard. Startups are a small group of people trying to be super productive and get a lot of shit done. You’re low on money, low on time, and the people you need are getting wooed by other startups or large companies.&lt;/p&gt;
+
+&lt;p&gt;So you have to be efficient in finding good people. Recruiting is a huge time suck, but hiring the wrong people &amp;amp; firing is a much more costly exercise, so you have to do your best to be precise.&lt;/p&gt;
+
+&lt;p&gt;But what is good and how do you find out?&lt;/p&gt;
+
+&lt;p&gt;The simplest way I’ve found to explain this is – good people are intellectual curious, focused on results, and always striving for excellence.&lt;/p&gt;
+
+&lt;p&gt;These things are hard to find in a short inteview. These 3 questions do a decent job &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Tell me your story&lt;/li&gt;
+
+&lt;li&gt;Give me the 1 thing you suck at&lt;/li&gt;
+
+&lt;li&gt;Explain something to me that you care about.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Most of the stuff I hear in startup interviews don’t matter. Domain experience is nice, technical trivia can be necessary, but all that really matters is somebody has the right instincts, knows how to learn, and takes ownership.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Tell me your story. This helps you learn someone’s journey and their decisions over the long term. What you want is an understanding of someone’s innate intellectual curiosity and how those translate into actions and results. People who are curious about things will pursue them, and those will manifest themselves classes they took, side projects, career choices, and mostly importantly, success stories.&lt;/p&gt;
+
+&lt;p&gt;The second question is about striving for excellence. It’s similar to the strengths &amp;amp; weaknesses question, but is more focused – I want to know about the one thing that you think you’re not good at, why you think you’re not good at it, and what are you doing to fix it. Shows focus, introspection, intellectual honestly, and the drive to become better.&lt;/p&gt;
+
+&lt;p&gt;Lastly, explain something to me, shamelessly stolen from &lt;a href=&quot;https://twitter.com/parand&quot;&gt;Parand&lt;/a&gt;. The question makes a lot of people uncomfortable, but gives you so much information about somebody. Who they are as a person (it’s usually something personal), what they’re passionate about, but most important – you get an understanding of how someone communicates and thinks. I won’t provide too much more detail here, but try this next time and would leave to hear what you take away from this in the commments.&lt;/p&gt;
+
+&lt;p&gt;What about you? Any other great questions or things you look for? Would love to hear in the comments.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Tiiny</title>
+      <link>http://www.chrisyin.com/2014/09/21/tiiny/</link>
+      <pubDate>Sun, 21 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/21/tiiny</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/tiiny.jpg&quot; alt=&quot;tiiny&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tiiny.com/&quot;&gt;Tiiny&lt;/a&gt; recently came out from &lt;a href=&quot;http://www.n-o-r-t-h-t-e-c-h-n-o-l-o-g-i-e-s.com/&quot;&gt;North&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kevinrose&quot;&gt;Kevin Rose’s&lt;/a&gt; new &lt;a href=&quot;/2014/09/17/startup-studio/&quot;&gt;startup studio&lt;/a&gt;. I’m usually pretty cynical when it comes to these types of consumer apps, but I really liked it.&lt;/p&gt;
+
+&lt;p&gt;The product is very simple – you can easily share and consume images / looping videos that disappear in 24 hours. It plugs into Twitter, and is displayed in a grid layout.&lt;/p&gt;
+
+&lt;p&gt;Good things – the product is beautiful &amp;amp; simple. It’s easy to use, you get it right away and the product is well done. Also plugging into Twitter to seed the platform with content was a good idea.&lt;/p&gt;
+
+&lt;p&gt;The app is really light and friendly. Because it’s a mix of images and looping videos, the app comes to life when you open it up. In addition, the grid itself is fantastic, providing a lot of content at once so you can feel like you’re diving into a new world instead of a constrained 1-1 experience.&lt;/p&gt;
+
+&lt;p&gt;The really great part is the combination of the grid and the 24 hour photo limit. It gives you a feel and a sense of impermanence and playfulness. The images and looping videos light the grid up, and the 24 hour limit and small images in the grid makes it feel safe and fun to contribute silly stuff.&lt;/p&gt;
+
+&lt;p&gt;What I did feel weird about was connecting this all to Twitter. While I get that it seeds the network faster, it feels weird to plug into a public network given the feeling of intimacy I get from teh app. Would like to really see this applied to an address book with a close knit of friends.&lt;/p&gt;
+
+&lt;p&gt;Regardless, thought it was a fun and well done app. We’ll see how it fares longer term :).&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Startup Studio</title>
+      <link>http://www.chrisyin.com/2014/09/17/startup-studio/</link>
+      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/17/startup-studio</guid>
+      <description>&lt;p&gt;The startup studio. Every entrepreneur I know dreams about building a startup studio, myself included.&lt;/p&gt;
+
+&lt;p&gt;A startup studio is simply an umbrella organization grouping together a set of ideas &amp;amp; products. What’s great about the studio model is that you’re not tied to any 1 thing like a company is. You’re not constrained to any particular sector, idea, product, etc. – you’re starting with nothing but some general hypotheses, and you can go in any direction you like.&lt;/p&gt;
+
+&lt;p&gt;What’s awesome about this is the experimental nature of the startup studio. You can explore a variety of ideas at once that can be unrelated or even conflicting – and quickly start/kill any of them at any time. You’re free to think, explore, and learn much faster than you would ordinarily.&lt;/p&gt;
+
+&lt;p&gt;Startups are hard and scary. In many cases, the end result of a startup has very little to do with the original idea. So the studio model lets you explore and experiement. If you have some inclination, you build &amp;amp; test it. If something isn’t working, you put it to rest and take your lessons. And if something works, you can spin it out and push it further.&lt;/p&gt;
+
+&lt;p&gt;What I love about this is the freedom to practice and exercise the 0 → 1 muscle. &lt;a href=&quot;http://blakemasters.com/post/20400301508/cs183class1&quot;&gt;As Peter Thiel has noted&lt;/a&gt;, 0 → 1 is the most difficult stage of building companies, but also the most fun and exciting. And I would love to spend my time focused on that.&lt;/p&gt;
+
+&lt;p&gt;The retort that I hear from people is about a seeming lack of results &amp;amp; focus. If we look at the existing ones – &lt;a href=&quot;http://betaworks.com/&quot;&gt;Betaworks&lt;/a&gt;, &lt;a href=&quot;http://expa.com/&quot;&gt;Expa&lt;/a&gt;, &lt;a href=&quot;https://medium.com/obvious&quot;&gt;Obvious&lt;/a&gt;, &lt;a href=&quot;http://www.n-o-r-t-h-t-e-c-h-n-o-l-o-g-i-e-s.com/&quot;&gt;North&lt;/a&gt;, &lt;a href=&quot;http://www.hvflabs.com/&quot;&gt;HVF&lt;/a&gt;, and even &lt;a href=&quot;https://www.rocket-internet.com/&quot;&gt;Rocket Internet&lt;/a&gt; – there is a consistnent thesis behind every studio. And some great companies have already been built from these groups.&lt;/p&gt;
+
+&lt;p&gt;And it’s fairly early still in the lifetime of these studios, so we’ll see in a few years how they fair. But the results so far look good.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;For a full list of startup studios, &lt;a href=&quot;https://www.rocket-internet.com/&quot;&gt;click here&lt;/a&gt;. Thanks to &lt;a href=&quot;https://twitter.com/stefanobernardi&quot;&gt;Stefano Bernardi&lt;/a&gt; for compiling and sharing.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Apple Watch</title>
+      <link>http://www.chrisyin.com/2014/09/12/apple-watch/</link>
+      <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/12/apple-watch</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/apple-watch.jpg&quot; alt=&quot;apple-watch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Apple watch was just announced a few days ago. Some reviews good, some bad. Regardless, it’s Apple, so the watch will sell. That being said, it is a V1 and there’s a lot of work left for them to do.&lt;/p&gt;
+
+&lt;p&gt;The product itself looked good. The software looked nice and the watch as a fitness tracker is the obvious but really great use case. The interchangeable bands are also a nice addition. The interface felt a bit strange though – not sure if tons of tiny icons on a home screen works well. And while I personally don’t like the dial, it makes sense.&lt;/p&gt;
+
+&lt;p&gt;The one thing that felt a bit weird to me was the presentation &amp;amp; the video. It showed Apple Watch doing everything. Texting, heartbeat, movies, calls, showing thousands of pictures, etc. All on this tiny device.&lt;/p&gt;
+
+&lt;p&gt;Given that it’s a V1 and still an emerging product category, the use cases are not clearly defined yet. The leading question from everyone was – why do I need one?&lt;/p&gt;
+
+&lt;p&gt;At this point, the Apple Watch (or any smart watch) is an extension of the device in your pocket – not standalone. It is a complement and should enhance some use cases, but not all.&lt;/p&gt;
+
+&lt;p&gt;Meaning - it can’t do everything a smartphone can. And it shouldn’t have to. The watch should be framed as a complement and an enhancement. Therefore the specific use cases should be well defined and displayed as such. They should show what it can do really well, and not just show all of the things that it can do.&lt;/p&gt;
+
+&lt;p&gt;Regardless, I do think that Apple will nail down those use cases and work it through. The device will get thinner, the use cases will become more defined, and the product will improve. So I’m absolutely long Apple Watch, just wanted to see better defined use cases.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Internet of Things</title>
+      <link>http://www.chrisyin.com/2014/09/10/internet-of-things/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/10/internet-of-things</guid>
+      <description>&lt;p align='center'&gt;
+  &lt;img src='/images/iot.jpg' /&gt;
+&lt;/p&gt;
+&lt;p&gt;Technology is about &lt;a href=&quot;https://medium.com/according-to-pmarca/how-new-technologies-enhance-human-capabilities-a4de8e4beeac&quot;&gt;giving human beings superpowers&lt;/a&gt;. Early computers were tools that helped people perform basic tasks faster and also remember large sets of data. They were awesome for basic processing, storage and retrieval – but those abilities were tied to a local machine.&lt;/p&gt;
+
+&lt;p&gt;Then came the internet. Storage &amp;amp; retrieval coupled with the distribution of the internet gave us incredible reach and access. We could easily share, distribute and retrieve group knowledge - making us smarter, more connected, etc. But we were still tethered to a computer for this - until mobile. Now everyone has all of this magic in their pocket with them everywhere they go.&lt;/p&gt;
+
+&lt;p&gt;Software &amp;amp; technology has continually gotten better over the years and we can now easily store, share &amp;amp; access data anywhere, anytime. But what hasn’t materially changed much is the way we collect and input data. Most data is still collected by a person typing things in via a keyboard.&lt;/p&gt;
+
+&lt;p&gt;The iPhone gave us a taste of what life would be like with sensors embedded in our lives - collecting data and doing the input for us (&lt;a href=&quot;http://www.slideshare.net/socialtech/20-hot-locationbased-apps-and-services-you-should-know-about-12841489&quot;&gt;GPS&lt;/a&gt;, &lt;a href=&quot;http://lifehacker.com/the-best-apps-that-use-your-phones-boring-features-in-710672640&quot;&gt;accelerometer&lt;/a&gt;, &lt;a href=&quot;http://www.macworld.com/article/2455474/open-sesame-how-ios-8-will-unlock-touch-ids-power.html&quot;&gt;fingerprint&lt;/a&gt;). We’re already seeing companies today leveraging these sensors top build awesome products like &lt;a href=&quot;https://nest.com/&quot;&gt;Nest&lt;/a&gt;, &lt;a href=&quot;http://www.fitbit.com/&quot;&gt;Fitbit&lt;/a&gt;, &lt;a href=&quot;http://estimote.com/&quot;&gt;Estimote&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;p&gt;As the cost of sensors continues to go down, they will continue to permeate everyday life. &lt;a href=&quot;http://chrisyin.com/2014/03/12/taiwan-workcation/&quot;&gt;In another post&lt;/a&gt; I mentioned that in Taiwan as the bus gets close to the stop, it sends push notifications to users that are in the vicinity. That’s awesome, and just a tiny example of what is possible here.&lt;/p&gt;
+
+&lt;p&gt;So I’m really excited for everything around us to be connected &amp;amp; help us to collect data and transmit it. The benefits will be enormous, and we will see tons of revolutionary technologies that automate and improve our lives over the next few years.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Foursquare &amp; Swarm</title>
+      <link>http://www.chrisyin.com/2014/09/05/new-foursquare/</link>
+      <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/05/new-foursquare</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/foursquare-swarm.png&quot; alt=&quot;foursquare-swarm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently Foursquare &lt;a href=&quot;http://blog.foursquare.com/post/87012827988/more-on-swarm-and-the-future-of-foursquare&quot;&gt;announced the split&lt;/a&gt; of their service into 2 different apps, &lt;a href=&quot;https://itunes.apple.com/us/app/foursquare/id306934924?mt=8&quot;&gt;Foursquare&lt;/a&gt; and &lt;a href=&quot;https://itunes.apple.com/US/app/id870161082?mt=8&quot;&gt;Swarm&lt;/a&gt;. The move was to separate the feature they’re largely known for, check-in’s (Swarm), from their new focus, reviews &amp;amp; recommendations (Foursquare).&lt;/p&gt;
+
+&lt;p&gt;The move doesn’t come as a surprise, but the launch has been less than spectacular. People have been &lt;a href=&quot;https://medium.com/@dweekly/dear-foursquare-c7c441fdf25e&quot;&gt;pretty vocal&lt;/a&gt; about their distaste for the service, and downloads are rankings are both down. There’s even a &lt;a href=&quot;https://twitter.com/killswarmapp&quot;&gt;Twitter account&lt;/a&gt; and a &lt;a href=&quot;http://killswarmapp.tumblr.com/&quot;&gt;blog&lt;/a&gt; dedicated to killing their new app, Swarm. And the press is &lt;a href=&quot;http://venturebeat.com/2014/08/29/as-relaunch-hype-subsides-will-foursquare-survive/&quot;&gt;questioning their ability to survive&lt;/a&gt;. Not looking great.&lt;/p&gt;
+
+&lt;p&gt;While there is risk, I wouldn’t count Foursquare out yet. Dennis has always said the vision is local search and they’re just starting to execute on that now. Over the years they’ve just been collecting the data to power this engine. And if you look at the ratings &amp;amp; reviews, the anger is primarily around the product changes as opposed to a commentary on the service. Those that have used the product for what it’s designed for have had decent things to say.&lt;/p&gt;
+
+&lt;p&gt;Outside of the above, a common thread that is brought up is Yelp. Those who say Yelp has already won the local restaurant game aren’t seeing what Foursquare could be. Yelp is in the same space, but the focus &amp;amp; products are different. Yelp is a directory, similar to the yellow pages. Foursquare is a recommendation engine that delivers tips based on your tastes. While Yelp has features that mimic Foursquare’s, the products are inherently different. Not a zero sum game, and they can co-exist.&lt;/p&gt;
+
+&lt;p&gt;All that being said, I do think there is a fair amount of execution risk here. Public perception of Foursquare is not great right now. Plus they’ve raised quite a bit of money &amp;amp; have been around for awhile; their investors may be needing that cash back soon, forcing their hand before it’s ready.&lt;/p&gt;
+
+&lt;p&gt;But I think the real risk is with the product. With their new model of separating check in’s and reviews, they have to more actively craft both sides of this marketplace to keep check-in data coming. Plus they have to make sure people don’t reject the apps post split. Making sure people continue checking in is just as important as people using their reviews serve.&lt;/p&gt;
+
+&lt;p&gt;Looking from the outside, I’m not sure I agree with the split. I do believe in unbundling &amp;amp; single purpose apps on mobile, but I think in this case I think they should have kept the products together. Checking in and getting reviews are 2 separate functions, but they’re tied together by location. A user shouldn’t have to think about which app to open when they get somewhere – Foursquare should just aim to be the first app users remember to open when they go anywhere. So they risk the user loss from that split, and also risk neglecting one side for the other, causing more loss.&lt;/p&gt;
+
+&lt;p&gt;But this is all coming from the outside. I have no insight outside of my own speculation, so I could be totally off. Regardless, while there is risk I still think Dennis &amp;amp; team have a lot going for them and I’m still rooting for Foursquare.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>How To Get Valuable Advice</title>
+      <link>http://www.chrisyin.com/2014/09/02/advice/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/09/02/advice</guid>
+      <description>&lt;p&gt;Mark Suster recently wrote an article called ‘&lt;a href=&quot;http://www.bothsidesofthetable.com/2014/08/30/here-is-how-to-make-sense-of-conflicting-startup-advice/&quot;&gt;How to make sense of conflicting startup advice&lt;/a&gt;’.&lt;/p&gt;
+
+&lt;p&gt;I’m always seeking advice, whether it’s through blogs, podcasts, asking people, etc – and over the years I’ve developed my own framework for getting value out of advice.&lt;/p&gt;
+
+&lt;p&gt;While Mark’s points are absolutely correct, I’m going to try and simplify and apply it more broadly – how do you get value out of any advice?&lt;/p&gt;
+
+&lt;p&gt;The core of how to understand advice is 2 things – to know where you are &amp;amp; what you want, and also to know where the opposing party is &amp;amp; what they want.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Know Where You Are &amp;amp; What You Want&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Frequently people that are asking for advice don’t have any idea of what they want. What they are asking for is to get persuaded in some direction or to hear an echo of their own thoughts. This is a flawed way to begin seeking advice. If you don’t know what you want, no amount on advice will get you there. Know the end destination.&lt;/p&gt;
+
+&lt;p&gt;Second is to know where you currently stand. That means understanding your skills, perception, network, strengths, weaknesses, etc. Someone who is coming out of MIT is starting from a very different place than someone who is coming out of culinary school. If you don’t know where you currently are and what resources you have, you can’t chart out a clear path to your end goal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Know Where They Are &amp;amp; Where They Want To Go&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When you need more guidance, you ask people. There are endless quantities of advice out there, and it can be tough to navigate. For every argument in one direction, there’s an equally convincing argument in the other. Blindly asking everyone for advice isn’t going to help.&lt;/p&gt;
+
+&lt;p&gt;What’s important is to make sure that you seek out the advice that is most relevant to you. Identify people who have not only gone where you’d like to go, but also started from a similar spot. People are prisoners of their own perspective, and they often give advice to themselves instead of doling out tailored advice based on your context.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I liken this to charting out a course on a map. To get somewhere, you need to know where you want to go. To get there, you need to draw a line from where you currently are to the end goal. If you need to ask for advice, you ask others who have gone to the same place from a similar starting point.&lt;/p&gt;
+
+&lt;p&gt;This is not to say that you should only take advice from people who are exactly the same. Ask a bunch of people for advice, but remember to temper their advice with their context. In many cases the advice itself isn’t important, but it is valuable to understand the framework in which people make decisions. You can then learn from that and improve your own decision making framework.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>The Coolest Cooler</title>
+      <link>http://www.chrisyin.com/2014/08/30/coolest-cooler/</link>
+      <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/08/30/coolest-cooler</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/coolest.jpg&quot; alt=&quot;coolest&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few days ago &lt;a href=&quot;https://www.kickstarter.com/projects/ryangrepper/coolest-cooler-21st-century-cooler-thats-actually&quot;&gt;Coolest Cooler&lt;/a&gt; overtook &lt;a href=&quot;https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android&quot;&gt;Pebble&lt;/a&gt; for most funded Kickstarter campaign ever. The product is really just a fancy cooler with speakers, blenders, bottle opener, etc.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;http://techcrunch.com/2014/07/15/the-5-million-cooler/&quot;&gt;this TechCrunch story&lt;/a&gt;, the first comment pointed out that the real story was not about the $13M raise, but that the founder, &lt;a href=&quot;https://www.kickstarter.com/profile/ryangrepper&quot;&gt;Ryan Grepper&lt;/a&gt;, had run &lt;a href=&quot;https://www.kickstarter.com/projects/ryangrepper/the-coolest-cooler-with-blender-music-and-so-much/&quot;&gt;almost the exact same campaign with the same product&lt;/a&gt; just under a year ago and failed to close.&lt;/p&gt;
+
+&lt;p&gt;What’s awesome about this is &lt;a href=&quot;https://www.kickstarter.com/projects/ryangrepper/the-coolest-cooler-with-blender-music-and-so-much/&quot;&gt;if you look&lt;/a&gt; at &lt;a href=&quot;https://www.kickstarter.com/projects/ryangrepper/coolest-cooler-21st-century-cooler-thats-actually&quot;&gt;both Kickstarter pages&lt;/a&gt;, the product did not substantial change from one campaign to the other (I’m not sure it changed at all). Some of the details on the Kickstarter page are different, but everything is pretty similar. The only difference is the outcome.&lt;/p&gt;
+
+&lt;p&gt;I have no idea what was different the 2nd time around, but what we can take from this is that perseverance through failure is what matters. Ryan obviously believed he had a winner on his hands, and he kept hustling through his 1st failure to pull together a massive success the 2nd time around.&lt;/p&gt;
+
+&lt;p&gt;I love reading about this kind of stuff, and so congrats to Ryan and his team for pulling it off.&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
@@ -354,9 +606,9 @@ tags:
 &lt;/ol&gt;
 
 &lt;p&gt;The net of this is this to form a team that fits &lt;a href=&quot;http://25iq.com/2014/07/13/a-dozen-things-ive-learned-from-peter-thiel/&quot;&gt;Peter Thiel’s High Alignment / High Trust&lt;/a&gt; matrix.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/hotteamsmatrix.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/hotteamsmatrix.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;So for those of us that manage teams (especially in a startup), we need remember to always to live by the principles above to win.&lt;/p&gt;</description>
     </item>
     
@@ -715,7 +967,7 @@ $ s3cmd sync --acl-public _site/ s3://www.chrisyin.com
 &lt;p&gt;&lt;img src=&quot;/images/staticsite/cname.png&quot; alt=&quot;cname&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then click back into the main setting and then for forwarding, set your forwarding to &lt;em&gt;wwww.domain.com&lt;/em&gt;. Done!&lt;/p&gt;
-&lt;hr /&gt;
+
 &lt;p&gt;Now both &lt;em&gt;domain.com&lt;/em&gt; &amp;amp; &lt;em&gt;wwww.domain.com&lt;/em&gt; should work for your site.&lt;/p&gt;</description>
     </item>
     
@@ -1464,9 +1716,9 @@ $ subl --help
 &lt;p&gt;You have to be credible. Reference experts (Dr. Yin says don’t smoke), aspirational people/celebrities (Lebron doesn’t smoke), the antihero (this ex-smoker with cancer says don’t smoke), or yourself (I quit smoking after I found out I was getting sick).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Emotional&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://bit.ly/13Xah2e&quot; alt=&quot;Maslow&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='http://bit.ly/13Xah2e' /&gt;
+&lt;/p&gt;
 &lt;p&gt;Maslow’s hierarchy. The lower end is physical needs. The higher end is emotional needs. Take your idea from something serving the lower end of Maslow’s hierarchy and aim higher. The stronger the emotion, the stronger the purpose.&lt;/p&gt;
 
 &lt;p&gt;Pegasus hall is an army mess hall in Baghdad. Imagein a mess hall – thousands of sweaty soldiers pouring into a dirty cafeteria. Soldier after soldier in line grabbing food from an assembly line and eating off of a plastic cafeteria tray. Doesn’t conjure a grand image.&lt;/p&gt;
@@ -2079,15 +2331,15 @@ $ subl --help
 &lt;p&gt;What Fanhattan ultimately wants from their users is what I’m going to call an Action. Action == Watching == Affiliate Revenue.&lt;/p&gt;
 
 &lt;p&gt;The user experience cycle goes from what I call Discovery –&amp;gt; Intrigued –&amp;gt; Learn More, then back to Discovery. Every stage should lead to an Action.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_circle.png&quot; alt=&quot;Fanhattan-Circle&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_circle.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;While Fanhattan currently follows the cycle shown above, I think the UX has drop offs at certain points, and it would be nice to see a more fluid experience that gives me the info I need when I want it, encourages me to take action, and keeps bringing me back to Discovery. (Basing this off of personal experience, opinions may change if I were to look at user data.)&lt;/p&gt;
 
 &lt;p&gt;Let’s focus on the movie section. We’ll start at Discovery, move to Intrigued, Learn More, and then back to Discovery.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_discovery.png&quot; alt=&quot;Discovery&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_discovery.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Discovery&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The Discovery section is currently broken into 7 horizontal panes in the top half of the screen. The panes are Smart Browse, Featured, Streaming, In Theatres, My Movies, My Friends, and Genre.&lt;/p&gt;
@@ -2095,9 +2347,9 @@ $ subl --help
 &lt;p&gt;7 panes is a lot to swipe through. And a few overlap, so we can consolidate. Smart Browse can already filter by Genre, so no need for a standalone Genre pane. In addition, My Movies is 3 personal lists; let’s make it all part of a dropdown menu associated with the “Me” button at the top (currently useless). Finally, Featured/Streaming/My Friends all help users discover films. Let’s group those together and call it Discover. We end up with 3 simple panes—Smart Browse, Discover, and In Theatres.&lt;/p&gt;
 
 &lt;p&gt;Since Discover is now 3 panes in 1, we need to reorganize it. In a recent &lt;a href=&quot;http://bit.ly/PmcZW0&quot;&gt;press release&lt;/a&gt;, Chris Thun noted that discovery is 3 things—algorithmic, curated, and social. And it makes sense; the user starts with a large list of movies, and it gets more personalized as you move from algorithmic to curated, and then even more with social. Let’s reorganize the new Discovery category to reflect this.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_discovery5.png&quot; alt=&quot;Pyramid&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_discovery5.png' /&gt;
+&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Start with most general– the 1st filter should be All.&lt;/li&gt;
 
@@ -2111,9 +2363,9 @@ $ subl --help
 &lt;/ol&gt;
 
 &lt;p&gt;Keep Smart Browse the same (it’s awesome), and re-sort In Theatres the same way we did Discover, from general to customized. We end up with something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_discovery31.png&quot; alt=&quot;Fanhattan1&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_discovery31.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;Just 3 panes for Discovery. Browse. Discover, from general films down to user specific. In Theatres for up &amp;amp; coming. The same material, but no swiping, easy to navigate &amp;amp; understand.&lt;/p&gt;
 
 &lt;p&gt;Also, when we tap on movie posters, Watch List, Seen It, Be a Fan options pop up. Let’s add Watch Now at the top so the user can immediately perform an Action when they see a film they like.&lt;/p&gt;
@@ -2121,29 +2373,29 @@ $ subl --help
 &lt;p&gt;&lt;strong&gt;Intrigued&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;If the user is unsure, they tap the movie poster and move to the Intrigued section. Currently for Intrigued, the bottom half of the screen turns into 3 columns (Photos, Watch Now, Movie Details). Tapping Discover pulls up a new screen (Learn More) with 9 separate panes (the first 3 panes are exactly the same as the columns in Intrigued).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_intrigued12.png&quot; alt=&quot;Intrigued&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_intrigued12.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;The user didn’t perform an Action in Discovery, and came to Intrigued to help with their decision. However, the current setup doesn’t help me make a decision – I need a bit more. And tapping any of these columns simply brings me to to the same pane in Learn More (and tapping the rating brings me to Movie Details)&lt;/p&gt;
 
 &lt;p&gt;Unless I was already prepared to perform an action, my decision ends up taking place in Learn More, rendering the Intrigued section almost useless.&lt;/p&gt;
 
 &lt;p&gt;The basic info I need is Summary, Cast &amp;amp; Crew, Ratings, &amp;amp; Trailers. Combine all the panes together, info on the left, actions on the right. Each section (Poster, Ratings, Plot Summary, Cast) should open a new window when tapped (ie tapping the critics/viewer meters will bring up the Reviews window). The user now has the requisite info and is led to perform an Action, or go back to the Discovery stage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_learn_mores.png&quot; alt=&quot;Fanhattan2&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_learn_mores.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Learn More&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point, we’ve provided all the basic info a user needs to make a decision. So either the user really wants to know the the film before they perform an Action or the user has already watched the film and wants to learn more. By swiping to the right, the user moves to Learn More. Here the user can get click on News, Discussions (&lt;a href=&quot;http://www.facebook.com/ThereWillBeBloodMovie&quot;&gt;Facebook&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/i/#!/search/?q=there+will+be+blood&amp;src=typd&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;http://getglue.com/movies/there_will_be_blood/paul_anderson&quot;&gt;GetGlue&lt;/a&gt;, etc), or watch Clips (&lt;a href=&quot;http://movieclips.com/&quot;&gt;MovieClips&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_learn-more.png&quot; alt=&quot;LearnMore&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_learn-more.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;For the user who is still trying to make a decision, this window will tell them everything to actually watching the film. There is no more information we can provide– the user will now either perform an Action (Watch Now in the top right), or reject the movie and go back to Discovery (click off the window).&lt;/p&gt;
 
 &lt;p&gt;The user who has already seen the film and wants to learn more has already performed an Action; we want to lead them back to Discovery. If they come this far for news/discussions/clips, I think it is safe to assume they at least mildly enjoyed the film. The user can then slide to the right and see an entire window of related films (categorized by Genre/Actors/Directors, etc) and this leads them back to the Discovery stage.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/fan_related.png&quot; alt=&quot;Related&quot; /&gt;&lt;/p&gt;
-
+&lt;p align='center'&gt;
+  &lt;img src='/images/fan_related.png' /&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The user now consistently gains more info at every stage (Discovery, Intrigued, Learn More) and can perform an action at every step. And at the end, we lead them back to Discovery to start the cycle over, creating a continually engaging experience.&lt;/p&gt;
