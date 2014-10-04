@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Quotes 
+tags: 
+ - 404
 ---
 
 >"Actions express priorities."

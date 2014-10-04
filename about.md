@@ -2,7 +2,8 @@
 layout: post
 title: Hey, I'm Chris Yin. 
 tags:
-- personal
+ - personal
+ - 404
 ---
 
 Hello! I'm Chris Yin -- 25 years old living in the Bay Area working at a [Coupa](http://www.crunchbase.com/organization/coupa), a late stage enterprise software startup as a product manager. 
