@@ -40,3 +40,5 @@ And it's been incredibly cathartic. Yes, my inbox is exploding, but I'm making r
 <hr>
 
 This thought expands further than simply managing email. It's a principle to remember in any situation -- make sure you're always playing offense. There are endless amounts of noise in the world trying to distract you. It can feel productive to work on clearing the noise, but it's a waste of effort -- and a futile one. The only way to truly advance on what's important is to ignore the noise, buckle down, and push your goals to completion.
+
+<iframe width="532" height="400" src="//www.youtube.com/embed/iqUG2_cmZ6I" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>

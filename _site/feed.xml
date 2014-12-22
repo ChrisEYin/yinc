@@ -6,9 +6,174 @@
     <atom:link href="http://www.chrisyin.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sat, 04 Oct 2014 22:30:59 +0000</pubDate>
-    <lastBuildDate>Sat, 04 Oct 2014 22:30:59 +0000</lastBuildDate>
+    <pubDate>Sun, 21 Dec 2014 23:55:00 +0000</pubDate>
+    <lastBuildDate>Sun, 21 Dec 2014 23:55:00 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>Hatsune Miku</title>
+      <link>http://www.chrisyin.com/2014/11/04/hatsune-miku/</link>
+      <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/11/04/hatsune-miku</guid>
+      <description>&lt;p&gt;A few weeks ago, a friend of mine showed me &lt;a href=&quot;http://en.wikipedia.org/wiki/Hatsune_Miku&quot;&gt;Hatsune Miku&lt;/a&gt;, the famous Japanese virtual pop star.&lt;/p&gt;
+
+&lt;p&gt;She’s a digital image of a 16 year old female cartoon. Somebody writes the lyrics, does the animations, and she is the public face of all of this.&lt;/p&gt;
+
+&lt;p&gt;She’s incredibly popular - not just millions of Youtube views, but also tons of sold out live concerts. She’s more prolific than any other singer – over 22,000 original songs and featured in over 100,000 others. And needless to say, she makes money hand over fist. Recently she even &lt;a href=&quot;http://www.buzzfeed.com/ryanhatesthis/who-the-heck-is-hatsune-miku&quot;&gt;came to Letterman&lt;/a&gt; to perform. Take a look.&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;&lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='//www.youtube.com/embed/rL5YKZ9ecpg' width='532'&gt; &lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In line with &lt;a href=&quot;http://www.wsj.com/articles/SB10001424053111903480904576512250915629460&quot;&gt;software eats the world&lt;/a&gt;, fascinating to watch this applied to music. Will be interesting to continue watching this unfold and see software continue to eat more things.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Why Remote Working Is Still Hard</title>
+      <link>http://www.chrisyin.com/2014/11/02/remote-working/</link>
+      <pubDate>Sun, 02 Nov 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/11/02/remote-working</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/remote.jpg&quot; alt=&quot;remote&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a global company, we have a &lt;a href=&quot;http://www.coupa.com/our-offices&quot;&gt;several remote offices and people&lt;/a&gt;. I used to be one of them – lived in San Diego, HQ in San Mateo. And I’ve always thought that the tools we use to bridge gap felt suboptimal. In speaking to other remote people, they feel the same way – there’s something missing for remote workers. I touched on it slightly &lt;a href=&quot;/2014/10/01/collaboration/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While remote working is taking hold in companies, it is still feels secondary to in person working. This applies to the tools we have today – they feel like extensions of in person collaboration as opposed to being built for a remote working first organizations.&lt;/p&gt;
+
+&lt;p&gt;The tools for modern remote working are typically some means of communication and sharing. So we use Hipchat for chat, Jira as a dev tracker, Zendesk as a support tracker, Google Drive for docs/spreadsheets, Github for code, Gmail and more. An absurd number of tools, and the noise that comes out of all this is very hard to wade through.&lt;/p&gt;
+
+&lt;p&gt;When you’re getting barraged with emails, pinged on Hipchat, Jira/Zendesk tickets getting assigned to you – it’s nearly impossible to figure out what is important and what is not. These tools facilitate one to many communication – leading to a tendency to spam people. Safer to add someone than not, making an already noisy workplace noisier.&lt;/p&gt;
+
+&lt;p&gt;In person, you gain context &amp;amp; focus. Very easy to see the current context and gauge if it’s a good time to ask someone for some focused time. And if they’ve agreed, very easy to determine whether or not you’re getting it – both if it’s a 5 min sync up or an hour long session. On the web it’s not so easy to tell who’s busy or not – and if you do get their time, if they’re focused or not. This coupled with the spammy nature of our tools drives a wedge between in person workers and remotes.&lt;/p&gt;
+
+&lt;p&gt;The second missing aspect is visibility. On the web, you’re as good as your chat icon status and how you often you communicate what you’re doing. In person, people can physically see you in the office, even if they don’t talk to you. Remotely it’s much more difficult to get visibility and recognition, which is an important part of working on a team.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Now I’ve seen some of these tools work in a 100% remote environment. In a 100% remote environment, everyone respects the rules of remote tools – always online, responsive, status up to date, efficient communication, etc. It works – &lt;a href=&quot;http://blogs.hbr.org/2013/03/how-wordpress-thrives-with-a-1/&quot;&gt;Automattic&lt;/a&gt;, &lt;a href=&quot;https://open.bufferapp.com/remote-working-means-tools-use/&quot;&gt;Buffer&lt;/a&gt;, &lt;a href=&quot;https://zapier.com/blog/how-manage-remote-team/&quot;&gt;Zapier&lt;/a&gt; are good examples.&lt;/p&gt;
+
+&lt;p&gt;It’s when there is a mix between remotes and in person that this break down. Not everyone lives online, and so the tools aren’t being used properly. If the tools fail, those in person can always default to ‘I’ll catch them in the office tomorrow’. This breakes the integrity of these tools and ultimately fails remote workers.&lt;/p&gt;
+
+&lt;p&gt;I don’t have a great solution, but I do think things like &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;, &lt;a href=&quot;https://www.sqwiggle.com/&quot;&gt;Sqwiggle&lt;/a&gt; and &lt;a href=&quot;https://idonethis.com/&quot;&gt;iDoneThis&lt;/a&gt; are on the right path. We need tools to help gain context &amp;amp; focus (Sqwiggle does a great job of this with easy, near always on video chat) as well as a way to increase visibility (iDonethis) &amp;amp; camraderie in our tools. The key in a mixed organization is for everyone to adopt the tools, not just remote workers.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Youtube Videos in Jekyll</title>
+      <link>http://www.chrisyin.com/2014/11/01/youtube-jekyll/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/11/01/youtube-jekyll</guid>
+      <description>&lt;p&gt;Was trying to embed Youtube videos onto my blog (Jekyll / Markdown), and &lt;a href=&quot;http://stackoverflow.com/questions/10529859/how-to-include-video-in-jekyll-markdown-blog&quot;&gt;a lot&lt;/a&gt; &lt;a href=&quot;http://dev.pibby.com/jekyll-youtube-plugin/&quot;&gt;of the ways&lt;/a&gt;/&lt;a href=&quot;https://gist.github.com/vanto/1455726&quot;&gt;plugins&lt;/a&gt; &lt;a href=&quot;http://blog.omgmog.net/post/video-integration-with-jekyll/&quot;&gt;out there&lt;/a&gt; weren’t working for me.&lt;/p&gt;
+
+&lt;p&gt;Regardless what I did, I always hit this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+Maruku cannot parse this block of HTML/XML: 
+# &amp;lt;iframe 
+     width=&amp;quot;532&amp;quot; 
+     height=&amp;quot;400&amp;quot; 
+     src=&amp;quot;//www.youtube.com/embed/iqUG2_cmZ6I&amp;quot; 
+     frameborder=&amp;quot;0&amp;quot; 
+     allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;After trying a bunch, what eventually what did work was 2 things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that there’s a space between the opening and closing iframe tags.&lt;/li&gt;
+
+&lt;li&gt;And change &lt;code&gt;allowfullscreen&lt;/code&gt; to &lt;code&gt;allowfullscreen=&amp;quot;allowfullscreen&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now the above should look like below. Thanks internet.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+# &amp;lt;iframe 
+     width=&amp;quot;532&amp;quot; 
+     height=&amp;quot;400&amp;quot; 
+     src=&amp;quot;//www.youtube.com/embed/iqUG2_cmZ6I&amp;quot; 
+     frameborder=&amp;quot;0&amp;quot; 
+     allowfullscreen=&amp;quot;allowfullscreen&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>BrightEyes Fireside Chat</title>
+      <link>http://www.chrisyin.com/2014/10/29/brighteyes/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/10/29/brighteyes</guid>
+      <description>&lt;p&gt;Did a chat with &lt;a href=&quot;https://twitter.com/diplateevo&quot;&gt;Daniel Kao&lt;/a&gt; of &lt;a href=&quot;http://brighteyes-students.org/&quot;&gt;BrightEyes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talked about startup, Xpenser, Coupa, and more. Was fun to do this, video embedded below.&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;&lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='//www.youtube.com/embed/lUPOfTd-RnE' width='532'&gt; &lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Rooms</title>
+      <link>http://www.chrisyin.com/2014/10/25/rooms/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/10/25/rooms</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/rooms.jpg&quot; alt=&quot;rooms&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/joshm&quot;&gt;Josh Miller&lt;/a&gt; just released a new app called Rooms. The intent is to create a place where you can chat and share images in different topic based rooms. &lt;a href=&quot;http://www.rooms.me/&quot;&gt;Check it out here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Josh comes from created &lt;a href=&quot;http://branch.com/&quot;&gt;Branch&lt;/a&gt;, backed by &lt;a href=&quot;http://obvious.com&quot;&gt;Obvious&lt;/a&gt;. Facebook then &lt;a href=&quot;http://techcrunch.com/2014/01/13/facebook-acquires-branch/&quot;&gt;acquired them&lt;/a&gt;, this product makes a lot of sense for them.&lt;/p&gt;
+
+&lt;p&gt;While it’s certainly really well done and a fun app to play with, I haven’t found great utility with it yet. I don’t see a problem or purpose for it, and the general sentiment has been similar – do we really need another place to chat about nonsense? I’m not convinced.&lt;/p&gt;
+
+&lt;p&gt;But there is an interesting piece in the app. Each chat room in the app has a QR code attached to it. And in order to join any room, you need to scan it – either via camera or through a screenshot (screenshot the QR code, and upload it). First time I’ve seen this particular interaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rooms-qr.jpeg&quot; alt=&quot;rooms-qr&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;http://www.wired.com/2014/10/facebook-rooms-app/&quot;&gt;Wired post&lt;/a&gt;, Josh explains that joining rooms is a core part of the app – but while sharing links is native on the web, it’s not easy on mobile. On mobile, images are the native form of data. So they created this new way to share rooms – QR codes on mobile.&lt;/p&gt;
+
+&lt;p&gt;Loved the thought process and the experimentation here, hope to see more of this.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>On Online Education</title>
+      <link>http://www.chrisyin.com/2014/10/13/on-online-learning/</link>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://www.chrisyin.com/2014/10/13/on-online-learning</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/collegeclassroom.jpg&quot; alt=&quot;collegeclassroom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was recently chatting with a friend of mine, &lt;a href=&quot;http://diplateevo.com/&quot;&gt;Daniel Kao&lt;/a&gt;, about online learning – sites like &lt;a href=&quot;https://www.coursera.org/&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://www.udacity.com&quot;&gt;Udacity&lt;/a&gt;, &lt;a href=&quot;https://www.udemy.com/&quot;&gt;Udemy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The premise of these &lt;a href=&quot;http://en.wikipedia.org/wiki/Massive_open_online_course&quot;&gt;online learning sites (MOOC’s)&lt;/a&gt; is to bring university level content to the world via the web. You can now take a &lt;a href=&quot;https://www.coursera.org/course/cs101&quot;&gt;Stanford CS course online&lt;/a&gt; for free, from anywhere in the world. Awesome.&lt;/p&gt;
+
+&lt;p&gt;I have personally learned a tremendous amount on MOOC’s. But I’m still skeptical of their ability to make a material impact on what we think of today as education.&lt;/p&gt;
+
+&lt;p&gt;When MOOC’s came about, like most people, I got super excited and signed up for every interesting class that I saw. And like most people, I signed up for far more courses than I actually completed. &lt;a href=&quot;https://www.insidehighered.com/news/2013/05/10/new-study-low-mooc-completion-rates&quot;&gt;Completion rates for MOOC’s are dismally low&lt;/a&gt; and the general population does not yet respect an education from a MOOC.&lt;/p&gt;
+
+&lt;p&gt;Traditional education is a lengthy, structured process in which we trade our time &amp;amp; money for the promise of jobs. There are 2 main types of learners – the full time student &amp;amp; the hobbyist learner. The full time student is making a long-term investment to eventually translate classes to a job. The hobbyist learner is doing the same, just on a shorter timeframe – learn immediate skills to get promoted, get a new job, start a side gig, etc.&lt;/p&gt;
+
+&lt;p&gt;MOOC’s solve neither problem. For full time students, a certificate of completion from a MOOC is not respected by companies. For the hobbyist learner, these classes are too theoretical and abstract to translate into immediate value.&lt;/p&gt;
+
+&lt;p&gt;Until MOOC’s can figure out how to help users more concretely translate time investment to value, they will continue to be treated as an educational supplement at best. Not to mention that online courses don’t yet take into account non-academic learnings of school – social skills, networking, etc. These are equally important, and are a large reason why in-school education is still so valued.&lt;/p&gt;
+
+&lt;p&gt;But there are a few new takes of learning that are interesting.&lt;/p&gt;
+
+&lt;p&gt;The first is vertical learning as a supplement to traditional education. Dev Bootcamp is a good example – a focused learning environment centered around a particular segment. You’re able to build a very dependable program to transfer valuable knowledge that directly translates to a job. As the model is further perfected, it can be then scaled through the web. This type of educational facility is geared towards the longer term, full time student.&lt;/p&gt;
+
+&lt;p&gt;The second is a short term skills based education. Skills training. Udemy is a good example – it’s a marketplace that allows anyone to create and distribute online courses that users pay for. The open marketplace lets instructors to create courses where value can be immediately realized so people can buy it, learn, and then recommend. Very different from content that originated from an institution – it’s real people teaching things that work. If we look at the &lt;a href=&quot;https://www.udemy.com/blog/top-ten-earners-on-udemy/&quot;&gt;top 10 instructors on Udemy&lt;/a&gt;, we can see this with courses like &lt;a href=&quot;https://www.udemy.com/excel-tutorial/&quot;&gt;Excel for Beginners&lt;/a&gt;, &lt;a href=&quot;https://www.udemy.com/how-to-create-awesome-demo-videos/&quot;&gt;How to Create a Demo Video for Your Business&lt;/a&gt;, (I ignored dev courses). This is geared for the hobbyist learner, taking classes on the side trying to pick up a new skill or job.&lt;/p&gt;
+
+&lt;p&gt;Regardless, all are exciting – and I believe that these companies are pushing us towards a shift in education. Education as we have it today is clearly substandard – it’s largely considered an insurance policy – get an education, and you’ll then get a job afterwards. Yet that’s not really the outcome that we’re seeing. We need these new companies to rethink education so we can better match what is needed in the workforce with what is taught in school.&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
@@ -362,6 +527,8 @@ tags:
 &lt;p&gt;And use this in one of your layouts file&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
+
+  &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/2014/11/01/youtube-jekyll/&amp;quot;&amp;gt;Youtube Videos in Jekyll&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 
   &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/2014/03/30/hosting-a-static-site-on-s3/&amp;quot;&amp;gt;Hosting a Static Site on S3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 
@@ -1495,7 +1662,8 @@ $ subl --help
 
 &lt;p&gt;And it’s been incredibly cathartic. Yes, my inbox is exploding, but I’m making real, tangible progress on the different goals I’ve set. I’ve been able to make more progress than before, find more free time, and everything else in my inbox is still going on perfectly fine without my response. Amazing.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;This thought expands further than simply managing email. It’s a principle to remember in any situation – make sure you’re always playing offense. There are endless amounts of noise in the world trying to distract you. It can feel productive to work on clearing the noise, but it’s a waste of effort – and a futile one. The only way to truly advance on what’s important is to ignore the noise, buckle down, and push your goals to completion.&lt;/p&gt;</description>
+&lt;p&gt;This thought expands further than simply managing email. It’s a principle to remember in any situation – make sure you’re always playing offense. There are endless amounts of noise in the world trying to distract you. It can feel productive to work on clearing the noise, but it’s a waste of effort – and a futile one. The only way to truly advance on what’s important is to ignore the noise, buckle down, and push your goals to completion.&lt;/p&gt;
+&lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='//www.youtube.com/embed/iqUG2_cmZ6I' width='532'&gt; &lt;/iframe&gt;</description>
     </item>
     
     
@@ -1819,7 +1987,8 @@ $ subl --help
 
 &lt;p&gt;And lastly, being courageous is easy — you just have to act like yourself all the time. It’s very natural, easy, and stress free. You maximize learning and minimize regret. If you disagree with everyone and are vocal about it — you’re either wrong and end up learning, or you’re right and look like a genius. There is no losing outcome.&lt;/p&gt;
 
-&lt;p&gt;So be courageous, live your life. It’s the surest way to be happy and successful.&lt;/p&gt;</description>
+&lt;p&gt;So be courageous, live your life. It’s the surest way to be happy and successful.&lt;/p&gt;
+&lt;iframe allowfullscreen='allowfullscreen' frameborder='0' height='400' src='//www.youtube.com/embed/sqI7fa04atc' width='532'&gt; &lt;/iframe&gt;</description>
     </item>
     
     

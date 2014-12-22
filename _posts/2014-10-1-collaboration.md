@@ -6,6 +6,7 @@ tags:
  - trends
  - mobile
  - enterprise
+ - featured
 ---
 
 I recently took part in an online panel on collaboration, organized by [Alex Schiff](https://twitter.com/alexschiff), founder of [Fetchnotes](http://www.fetchnotes.com/). Was a fun experience, getting out my own thoughts and hearing from people in other companies like Asana, Yammer, Quip, Wunderlist, Any.do, Do, etc say on the topic. Full post is below, just click on the image.

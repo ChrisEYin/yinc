@@ -26,3 +26,5 @@ And lastly, being courageous is easy — you just have to act like yourself all 
 
 So be courageous, live your life. It’s the surest way to be happy and successful.
 
+<iframe width="532" height="400" src="//www.youtube.com/embed/sqI7fa04atc" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+
