@@ -1,5 +1,5 @@
 ---
-title: Why Remote Working Is Still Hard
+title: Why Remote Working Is Hard
 layout: post
 tags:
  - remote
