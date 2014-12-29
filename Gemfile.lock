@@ -50,6 +50,10 @@ GEM
     jekyll-assets (0.7.7)
       jekyll (~> 1.0)
       sprockets (~> 2.10)
+    jekyll-lunr-js-search (0.2.0)
+      json (~> 1.8)
+      nokogiri (~> 1.6)
+      therubyracer (~> 0.12)
     jekyll-mentions (0.0.5)
       html-pipeline (~> 1.5.0)
       jekyll (~> 1.4.3)
@@ -61,6 +65,7 @@ GEM
       jekyll (~> 1.4.3)
     json (1.8.1)
     kramdown (1.3.1)
+    libv8 (3.16.14.7)
     liquid (2.5.5)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -87,6 +92,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (2.3.0)
+    ref (1.0.5)
     ruby-oembed (0.8.10)
     safe_yaml (0.9.7)
     sass (3.3.3)
@@ -95,6 +101,9 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thread_safe (0.2.0)
       atomic (>= 1.1.7, < 2)
     tilt (1.4.1)
@@ -113,6 +122,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-assets
+  jekyll-lunr-js-search
   maruku
   rake
   ruby-oembed (~> 0.8.10)
