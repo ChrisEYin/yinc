@@ -84,7 +84,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
-    rake (10.1.1)
+    rake (0.8.7)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -124,7 +124,7 @@ DEPENDENCIES
   jekyll-assets
   jekyll-lunr-js-search
   maruku
-  rake
+  rake (~> 0.8.7)
   ruby-oembed (~> 0.8.10)
   sass
   uglifier
