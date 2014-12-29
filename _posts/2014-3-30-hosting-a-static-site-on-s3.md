@@ -23,7 +23,7 @@ There's a ton of places to do this (people seem to use [Namecheap](https://www.n
 
 If you don't have an S3 account, go to [AWS](http://aws.amazon.com) and sign up. It's free for 5 GB storage, 20K Get Requests, 2K Put Requests, and 15GB of data transfer out each month for one year. For most, it will be free but if you think you'll do more than that, their pricing is [here](http://aws.amazon.com/s3/pricing/). 
 
-Once you're in the S3 console, click 'Create Bucket' in the top left hand corner. All your files will be stored here. Name your bucket 'www.{{ your domain }}.com'. For Region, just leave the default 'US Standard' and then click 'Create'.
+Once you're in the S3 console, click 'Create Bucket' in the top left hand corner. All your files will be stored here. Name your bucket 'www.yourdomain.com'. For Region, just leave the default 'US Standard' and then click 'Create'.
 
 ![createbucket](/images/staticsite/createbucket.png)
 
@@ -67,9 +67,9 @@ Under the domain info and next to 'Settings', select 'DNS Zone File' and then cl
 
 ![cname](/images/staticsite/cname.png)
 
-Then click back into the main setting and then for forwarding, set your forwarding to *wwww.domain.com*. Done!
+Then click back into the main setting and then for forwarding, set your forwarding to *www.domain.com*. Done!
 
-Now both *domain.com* & *wwww.domain.com* should work for your site.
+Now both *domain.com* & *www.domain.com* should work for your site.
 
 
 

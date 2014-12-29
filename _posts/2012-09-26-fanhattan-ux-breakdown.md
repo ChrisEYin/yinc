@@ -6,6 +6,8 @@ tags:
 - consumer
 - product
 - review
+- fanhattan
+- ux
 ---
 
 So, my first time doing one of these things, but I love Fanhattan and wanted to throw my opinion in. So here goes.
