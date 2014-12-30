@@ -49,6 +49,25 @@
     <meta property="og:site_name" content="Chris Yin">
     <!--Sumome Plugin -->
     <script src="//load.sumome.com/" data-sumo-site-id="9ab9472d0d4be1e3018f7e4143e4d815f5d3b7d5bce0b041f56a425c97d35b29" async></script> 
+
+        <style type="text/css">
+          #search-demo-container {
+            max-width: 40em;
+            padding: 1em;
+            margin: 1em auto;
+            border: 1px solid lightgrey;
+          }
+          #search-input {
+            display: inline-block;
+            padding: .5em;
+            width: 100%;
+            font-size: 0.8em;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+          }
+        </style>
+
 </head>
 <body>
      
@@ -62,6 +81,12 @@
             <a href="/about" class="">About</a>
             <a href="/quotes" class="">Quotes</a>
         </nav>
+
+        <div id="search-demo-container">
+          <input type="text" id="search-input" placeholder="search...">
+          <ul id="results-container"></ul>
+        </div>
+        
         
     </header>
 </section>
@@ -211,6 +236,19 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5427ab661a82d0c5" async></script>
 
+    <script src="//bower_components/simple-jekyll-search/jekyll-search.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        dataSource: '//bower_components/simple-jekyll-search/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+      })
+    </script>
 
 </body>
 </html>
