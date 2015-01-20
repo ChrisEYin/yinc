@@ -57,6 +57,20 @@ layout: base
           {% else %}
             <!-- {% include _social.html %} -->
             <hr>
+              <div style="text-align:center">
+              {% if page.previous %}
+                <a {% if page.previous %}href="{{ page.previous.url }}"{% endif %}>
+                  &lt; Last 
+                </a>
+              {% endif %}
+              {% if page.next %}
+              |
+                <a {% if page.next %}href="{{ page.next.url }}"{% endif %}>
+                  Next &gt;
+                </a>
+              {% endif %}
+              </div>
+            <hr>
               <h2 style="font-size:1.2em">You Might Also Like</h2>
                 <ul>
                   {% for rel in site.related_posts limit:5 %}
