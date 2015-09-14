@@ -33,8 +33,7 @@ Big failures like this bring us back to earth. At the end of the day, business i
 
 Fab was a standard e-commerce company -- running on razor thin margins & without proprietary product. Regardless, they raised raised a tremendous amount of money, seemingly defying all logic with. But in the end, the economics did not support their model.
 
-While Fanhattan ([I wrote about their product earlier](/2012/09/26/fanhattan-ux-breakdown/)
-) had a very beautiful product, nobody loved it & they struggled with distribution. Their pivot to hardware was once again -- beautifully designed but struggled with distribution. A lot of things we can learn from this one, but the key is that you can't just create beautiful products. You need to solve a compelling problem and pair that with a strong distribution strategy.
+While Fanhattan ([I wrote about their product earlier](/2012/09/26/fanhattan-ux-breakdown/)) had a very beautiful product, nobody loved it & they struggled with distribution. Their pivot to hardware was once again -- beautifully designed but struggled with distribution. A lot of things we can learn from this one, but the key is that you can't just create beautiful products. You need to solve a compelling problem and pair that with a strong distribution strategy.
 
 And lastly Aereo was plagued with problems from the beginning. In the end, it came down to the fact that large cable companies and copyright law could still push them out of business. In the end, the courts overruled them and that was it.
 

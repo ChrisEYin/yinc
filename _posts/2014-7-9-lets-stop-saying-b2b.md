@@ -9,6 +9,8 @@ tags:
 - product
 ---
 
+*This is a follow up post to [Building for the Enterprise](http://bit.ly/1hxzntZ).*
+
 Recently I've been seeing more people using the word B2B incorrectly. Mostly falsely conflating B2B, SMB and Enterprise (esp in the startup world). They are vastly different, so here's my attempt to clear it up.
 
 A bit of context - I work at [Coupa](http://bit.ly/U4ZvG1), a late stage enterprise software startup. We build and sell software to large companies via subscription model. Before, I was at [Xpenser](http://bit.ly/18MuCue). We built and sold subscription software to businesses of any size, but primarily in the SMB space. 
