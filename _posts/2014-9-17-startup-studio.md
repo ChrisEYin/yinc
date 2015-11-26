@@ -22,5 +22,5 @@ And it's fairly early still in the lifetime of these studios, so we'll see in a 
 
 --
 
-For a full list of startup studios, [click here](https://www.rocket-internet.com/). Thanks to [Stefano Bernardi](https://twitter.com/stefanobernardi) for compiling and sharing.  
+For a full list of startup studios, [click here](http://bernardi.me/post/101192026840/updated-list-of-venture-studios-and-startup). Thanks to [Stefano Bernardi](https://twitter.com/stefanobernardi) for compiling and sharing.
 
